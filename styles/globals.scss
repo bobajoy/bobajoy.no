@@ -30,6 +30,17 @@ a {
   color: inherit;
   text-decoration: none;
 }
+button,
+a.btn {
+  padding: 15px 25px;
+  border: none;
+  background-color: #9cbd32;
+  font-weight: 700;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 .header {
   display: grid;
   top: 0;

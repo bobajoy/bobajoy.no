@@ -97,9 +97,31 @@ const Home: NextPage = () => {
         </div>
       </header>
       <main className={styles.main}>
-        <h1>Jonny dep trai</h1>
+        <div className={styles.hero}>
+          <div className={styles.heroWrapper}>
+            <div className={styles.titleWrapper}>
+              <Image
+                src="/images/bear_logo.svg"
+                alt="BobaJoy polarbear logo"
+                width={100}
+                height={256}
+              />
+              <Image
+                src={logo}
+                alt="BobaJoy text logo"
+                width={300}
+                height={28}
+              />
+              <h2>Bubble tea & more</h2>
+            </div>
+            <div className={styles.buttonWrapper}>
+              <Link href="/menu">
+                <a className="btn">Bestill nå</a>
+              </Link>
+            </div>
+          </div>
+        </div>
       </main>
-
       <footer className={styles.footer}></footer>
     </div>
   );
