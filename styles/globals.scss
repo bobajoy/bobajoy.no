@@ -1,3 +1,4 @@
+@import 'variables';
 * {
   box-sizing: border-box;
 }
@@ -7,8 +8,140 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --text-dark: #{$text-dark};
+  --text-light: #{$text-light};
+  --text-darker: #656565;
+  --title: #{$title};
+  --title-dark: #{$title-dark};
+  --text-footer: #bebebe;
+  --primary-button: #{$primary-button};
+  --secondary-button: #{$secondary-button};
+  --neutral-button: #{$neutral-button};
+  --bg-footer: #{$bg-footer};
+  --bg: #{$bg};
+  --bg-dark: #{$bg-dark};
+  --bg-light: #{$bg-light};
+  --bg-navBorder: #dbdbdb;
+  --transparent: #{$transparent};
 }
 a {
   color: inherit;
   text-decoration: none;
+}
+.header {
+  display: grid;
+  top: 0;
+  grid-template-columns: 200px 1fr 200px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 0 5%;
+  color: white;
+  height: 60px;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.7s;
+  &.hidden {
+    background-color: var(--transparent);
+  }
+  .logoWrapper {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    a {
+      position: relative;
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      transition: color 0.6s;
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+      &.active,
+      &:hover {
+        color: var(--primary);
+        &::before {
+          width: 100%;
+        }
+      }
+      &::before {
+        content: '';
+        width: 0;
+        height: 2px;
+        background-color: var(--primary);
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        transition: width 0.5s;
+      }
+    }
+  }
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    .iconLink {
+      display: inline-flex;
+      align-items: center;
+      &:first-of-type {
+        justify-content: flex-end;
+      }
+      svg > path {
+        transition: fill 0.6s;
+      }
+      &:hover {
+        svg > path {
+          fill: var(--primary);
+        }
+      }
+    }
+    .burger {
+      position: relative;
+      background-color: var(--transparent);
+      width: 24px;
+      height: 24px;
+      padding: 0;
+      display: none;
+      &.active {
+        span {
+          transform: rotate(45deg) translate(5.5px, 4px);
+          &:first-of-type {
+            top: 12px;
+            opacity: 0;
+            transform: rotate(0deg) translate(0, 0);
+          }
+          &:last-of-type {
+            bottom: 1px;
+            top: auto;
+            transform: rotate(-45deg) translate(7.5px, -6px);
+          }
+        }
+      }
+      span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 4px;
+        background-color: var(--bg-dark);
+        transition: all 0.5s;
+        &:first-of-type {
+          top: 12px;
+        }
+        &:last-of-type {
+          bottom: 1px;
+          top: auto;
+        }
+      }
+    }
+  }
 }
