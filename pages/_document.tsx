@@ -6,9 +6,9 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Coiny&family=Fuzzy+Bubbles:wght@400;700&display=swap"
             rel="stylesheet"
-          />
+          ></link>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
