@@ -83,10 +83,7 @@ const Home: NextPage = () => {
             </div>
             <div>
               <h2>Her finner du oss</h2>
-              <p>
-                Olav Tryggvason gt. 1, 7011 Trondheim Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.{' '}
-              </p>
+              <p>Olav Tryggvason gt. 1, 7011 Trondheim</p>
             </div>
             <div>
               <h2>Del dine bobler sammen med oss!</h2>
@@ -95,13 +92,79 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.section}>
+        <div className={`${styles.section} ${styles.selectionWrapper}`}>
           <h1 className={styles.title}>Utvalgte teer</h1>
+          <div>
+            <div className={styles.cardWrapper}>
+              <div className={styles.cardImage}>
+                <Image
+                  src="/images/placeholder.png"
+                  alt="A placeholder for images"
+                  width={320}
+                  height={320}
+                  layout="responsive"
+                />
+              </div>
+              <div className={styles.cardText}>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                  ipsum scelerisque volutpat felis, felis consequat viverra.
+                  Ullamcorper a amet, euismod venenatis amet, at ornare sed
+                  phasellus. Sapien, malesuada neque hendrerit semper. Orci duis
+                  laoreet urna aliquam ut et feugiat.
+                </p>
+              </div>
+              <svg
+                className={styles.cardWave}
+                viewBox="0 0 1292 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M72.1367 2.81796L0 4.24584V26H1292V7.10162L1219.86 9.00547C1148.8 10.9093 1004.53 14.717 861.333 12.8132C718.137 10.9093 573.863 3.29392 430.667 0.914104C287.47 -1.46571 143.197 1.39007 72.1367 2.81796Z"
+                  fill="#F2F3DA"
+                />
+              </svg>
+            </div>
+            <div className={`${styles.cardWrapper} ${styles.cardReverse}`}>
+              <div className={styles.cardImage}>
+                <Image
+                  src="/images/placeholder.png"
+                  alt="A placeholder for images"
+                  width={320}
+                  height={320}
+                  layout="responsive"
+                />
+              </div>
+              <div className={styles.cardText}>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                  ipsum scelerisque volutpat felis, felis consequat viverra.
+                  Ullamcorper a amet, euismod venenatis amet, at ornare sed
+                  phasellus. Sapien, malesuada neque hendrerit semper. Orci duis
+                  laoreet urna aliquam ut et feugiat.
+                </p>
+              </div>
+              <svg
+                className={styles.cardWave}
+                viewBox="0 0 1292 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M72.1367 2.81796L0 4.24584V26H1292V7.10162L1219.86 9.00547C1148.8 10.9093 1004.53 14.717 861.333 12.8132C718.137 10.9093 573.863 3.29392 430.667 0.914104C287.47 -1.46571 143.197 1.39007 72.1367 2.81796Z"
+                  fill="#F2F3DA"
+                />
+              </svg>
+            </div>
+          </div>
         </div>
         <div className={styles.section}>
           <h1 className={styles.title}>Følg oss på instagram!</h1>
         </div>
-        <div className={styles.section}>map</div>
+        <div className={`${styles.section} ${styles.map}`}>map</div>
       </main>
 
       <Footer />
