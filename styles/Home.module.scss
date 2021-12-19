@@ -128,7 +128,7 @@
       &.welcomeText {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        //justify-content: space-between;
         padding-bottom: 14px;
         .buttonWrapper {
           height: 50px;
@@ -191,13 +191,12 @@
     .cardWave {
       position: absolute;
       width: 101%;
-      // height: 20px;
       bottom: -10px;
       left: -1%;
     }
   }
   .cardReverse {
-    border-radius: 0 10px 30px 50px;
+    border-radius: 0 10px 30px 20px;
     .cardImage {
       order: 1;
       border-radius: 0 10px 30px 50px;
@@ -216,7 +215,7 @@
   margin-bottom: 0;
   padding-bottom: 50px;
   .title {
-    z-index: 1;
+    z-index: 2;
     &::before {
       content: '';
       background: url('/images/titlebg.svg');
@@ -239,17 +238,25 @@
     width: 100%;
     margin: 0 auto;
     grid-gap: 15px;
-    z-index: 1;
+    z-index: 2;
     .image {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
   }
-  .galleryWave {
-    width: 100%;
+  .galleryWave,
+  .galleryTitleWave {
     position: absolute;
+    width: 100%;
     bottom: 0;
+    left: 0;
+  }
+  .galleryTitleWave {
+    position: absolute;
+    width: 100%;
+    bottom: initial;
+    top: 45px;
     left: 0;
   }
 }
@@ -260,8 +267,8 @@
   background-color: #f4eea9;
   padding-bottom: 50px;
   .googleMap {
-    width: 100%;
-    max-width: 1080px;
+    width: 90%;
+    max-width: 1440px;
     background-color: white;
     height: 300px;
     margin: 0 auto;
