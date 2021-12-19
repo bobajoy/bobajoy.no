@@ -16,7 +16,7 @@ body {
   --text-darker: #656565;
   --title: #{$title};
   --title-dark: #{$title-dark};
-  --text-footer: #bebebe;
+  --text-footer: #000;
   --primary-button: #{$primary-button};
   --secondary-button: #{$secondary-button};
   --neutral-button: #{$neutral-button};
@@ -169,6 +169,9 @@ footer {
   font-size: 0.85rem;
   margin: 0 auto;
   font-size: 1.1rem;
+  svg path {
+    fill: var(--text-footer);
+  }
   .footerWrapper {
     max-width: 1440px;
     display: flex;
@@ -205,7 +208,7 @@ footer {
       margin: 0 auto;
       display: inline-flex;
       flex-direction: column;
-      color: white;
+      color: var(--text-footer);
       h4 {
         margin-top: 0;
         text-transform: uppercase;
@@ -240,6 +243,6 @@ footer {
   .footerCreditsWrapper {
     text-align: center;
     font-size: 1rem;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid #a7a7a7;
   }
 }
