@@ -25,7 +25,7 @@ const Header = () => {
       </Link>
       <nav>
         <Link href="/">
-          <a>Home</a>
+          <a>Hjem</a>
         </Link>
         <Link href="/menu">
           <a>Meny</a>

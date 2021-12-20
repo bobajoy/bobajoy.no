@@ -14,9 +14,7 @@ const Contact: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <header className={styles.header}>
-          <h1 className={styles.title}>
-            About page <a href="https://nextjs.org">Next.js!</a>
-          </h1>
+          <h1 className={styles.title}>Kontakt oss</h1>
           <svg
             viewBox="0 0 1440 161"
             className={styles.headerWave}
@@ -41,6 +39,86 @@ const Contact: NextPage = () => {
             />
           </svg>
         </header>
+        <div className={styles.section}>
+          <h2 className={styles.title}>Gi oss tilbakemeldinger</h2>
+          <div className={styles.formWrapper}>
+            <form action="">
+              <div>
+                <div className={styles.inputWrapper}>
+                  <label>
+                    Ditt navn*:
+                    <input type="text" required />
+                  </label>
+                  <label>
+                    Din epost*
+                    <input type="email" required />
+                  </label>
+                </div>
+                <label>
+                  Emne
+                  <input type="text" />
+                </label>
+                <label>
+                  Din melding*
+                  <textarea
+                    name=""
+                    id=""
+                    cols={30}
+                    rows={10}
+                    required
+                  ></textarea>
+                </label>
+              </div>
+              <div className={styles.buttonWrapper}>
+                <button className={styles.btn}>Send melding</button>
+              </div>
+              <svg
+                className={styles.formWave}
+                width="1292"
+                height="64"
+                viewBox="0 0 1292 64"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M0 35.6462L72.1367 31.1904C143.197 26.7346 287.47 17.8231 430.667 25.2494C573.863 32.6757 718.137 56.4398 861.333 62.3808C1004.53 68.3218 1148.8 56.4398 1219.86 50.4988L1292 44.5577V-4.76837e-07H1219.86C1148.8 -4.76837e-07 1004.53 -4.76837e-07 861.333 -4.76837e-07C718.137 -4.76837e-07 573.863 -4.76837e-07 430.667 -4.76837e-07C287.47 -4.76837e-07 143.197 -4.76837e-07 72.1367 -4.76837e-07H0V35.6462Z"
+                  fill="white"
+                />
+              </svg>
+            </form>
+          </div>
+          <div className={`${styles.section} ${styles.mapWave}`}>
+            <svg
+              viewBox="0 0 1440 144"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M1440 63.7961L1359.49 73.8216C1280.18 83.8471 1119.15 103.898 959.333 87.1889C799.512 70.4798 638.488 17.0105 478.667 3.64316C318.845 -9.72416 157.822 17.0105 78.5116 30.3778L-2 43.7451V144H78.5116C157.822 144 318.845 144 478.667 144C638.488 144 799.512 144 959.333 144C1119.15 144 1280.18 144 1359.49 144H1440V63.7961Z"
+                fill="#F4EEA9"
+              />
+            </svg>
+          </div>
+          <div className={`${styles.section} ${styles.map}`}>
+            <div className={styles.googleMap}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1597.7801014434394!2d10.401946419628542!3d63.43326460267982!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e5a4c52f02ce11e!2sHeimdal%20Gull!5e0!3m2!1sen!2sno!4v1639949216519!5m2!1sen!2sno"
+                frameBorder="0"
+                width="100%"
+                height="450"
+                allowFullScreen={false}
+                aria-hidden="false"
+                title="Google Maps"
+                tabIndex={0}
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </main>
       <Footer />
     </div>

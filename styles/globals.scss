@@ -32,7 +32,9 @@ a {
   text-decoration: none;
 }
 button,
-a.btn {
+a.btn,
+input[type='submit'],
+input[type='button'] {
   padding: 15px 25px;
   border: none;
   background-color: #9cbd32;
