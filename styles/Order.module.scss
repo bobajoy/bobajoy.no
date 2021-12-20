@@ -1,0 +1,189 @@
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--bg-light);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  .header {
+    color: white;
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark);
+    background: linear-gradient(230deg, #b5c144 19%, #d1dd62 104%);
+    .title {
+      font-family: 'Coiny', cursive;
+      font-weight: 500;
+      position: relative;
+      top: -20px;
+      font-size: 2.5rem;
+      color: white;
+    }
+    .headerWave {
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      width: 100%;
+    }
+  }
+  .title {
+    font-size: 1.7rem;
+  }
+  .orderWrapper {
+    background-color: white;
+    max-width: 1200px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    .title {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .orderDisplay {
+      display: grid;
+      grid-template-columns: 200px 1fr 300px;
+      grid-gap: 20px;
+      padding-left: 20px;
+      .orderNav {
+        position: sticky;
+        padding-top: 10px;
+        top: 70px;
+        font-size: 0.875rem;
+        margin: 0;
+        max-height: calc(100vh - 320px);
+        overflow-y: auto;
+        button {
+          background-color: transparent;
+          color: black;
+          text-align: left;
+          font-size: 0.8rem;
+          padding: 10px 0;
+          &:hover {
+            color: rgb(62, 62, 62);
+          }
+        }
+      }
+      .orderItems {
+        h1,
+        h2,
+        h3,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+        padding-top: 10px;
+        .orderItemsWrapper {
+          display: flex;
+          flex-direction: column;
+          .orderItemsInfo {
+            padding: 0.5rem 0 1.5rem 1rem;
+            margin: 0 0.5rem 0.5rem 0.5rem;
+            p {
+              font-size: 0.8rem;
+              color: rgb(62, 62, 62);
+            }
+          }
+          .orderItemsList {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .orderItem {
+              display: flex;
+              margin-bottom: 20px;
+              overflow-x: hidden;
+              transition: border-color 0.3s ease-out;
+              padding: 1.5rem 0;
+              margin: -1px 1.5rem;
+              border-style: solid;
+              border-color: #e4e4e4;
+              border-width: 1px 0;
+              position: relative;
+              .orderItemInfo {
+                width: 70%;
+                font-size: 0.8rem;
+                color: rgb(62, 62, 62);
+                margin-right: 10px;
+                h3 {
+                  font-size: 1rem;
+                }
+                .orderItemPrice {
+                  margin-top: 10px;
+                  font-weight: 600;
+                  color: #4aa509;
+                }
+              }
+              .orderItemImage {
+                position: relative;
+                width: 100%;
+                height: 9.125rem;
+                width: 13.125rem;
+                overflow: hidden;
+                border-radius: 10px;
+              }
+            }
+          }
+        }
+      }
+      .orderInfo {
+        padding-right: 20px;
+        h2 {
+          font-size: 1.5rem;
+          margin-bottom: 0;
+        }
+        p {
+          margin: 0;
+        }
+        .orderInfoItems {
+          margin-top: 20px;
+          .orderInfoItem {
+            font-size: 0.8rem;
+            background-color: #f0f0f0;
+            margin-bottom: 10px;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+.title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #303030;
+}
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--bg-light);
+  letter-spacing: 1px;
+}
+.mapWave {
+  background-color: var(--bg-light);
+  min-height: initial;
+  margin-top: 200px;
+  height: 150px;
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+.map {
+  background-color: #f4eea9;
+  padding-bottom: 50px;
+  .googleMap {
+    width: 90%;
+    max-width: 1440px;
+    background-color: white;
+    height: 300px;
+    margin: 0 auto;
+  }
+}
