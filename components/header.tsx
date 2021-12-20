@@ -17,7 +17,7 @@ const Header = () => {
     [hideOnScroll]
   );
   return (
-    <header className={`${hideOnScroll ? 'hidden' : ''}`}>
+    <header className={`navigation ${hideOnScroll ? 'hidden' : ''}`}>
       <Link href="/">
         <a className="logoWrapper">
           <Image src={logo} alt="BobaJoy logo" width={240} height={42} />
