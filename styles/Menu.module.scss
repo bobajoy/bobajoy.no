@@ -1,0 +1,117 @@
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--bg-light);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  .header {
+    color: white;
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark);
+    background: linear-gradient(230deg, #b5c144 19%, #d1dd62 104%);
+    .title {
+      font-family: 'Coiny', cursive;
+      font-weight: 500;
+      position: relative;
+      top: -20px;
+      font-size: 2.5rem;
+      color: white;
+    }
+    .headerWave {
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      width: 100%;
+    }
+  }
+  .title {
+    font-size: 1.7rem;
+  }
+  .menuGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 50px;
+    ul {
+      width: 100%;
+      min-height: 200px;
+      list-style: none;
+      color: #fff;
+      text-align: left;
+      padding: 10px 0;
+      margin: 0 auto;
+      color: black;
+      .menuTitle {
+        border-top: 1px solid #496648;
+        border-bottom: 1px solid #496648;
+        color: #496648;
+        padding: 16px 0;
+        margin: 0 0 20px 0;
+        font-size: 20px;
+      }
+      .menuItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .menuInfo {
+          span {
+            font-size: 0.8rem;
+          }
+        }
+        .menuPrice {
+          margin: 0;
+        }
+      }
+      span {
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+.title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #303030;
+}
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--bg-light);
+  letter-spacing: 1px;
+}
+.mapWave {
+  background-color: var(--bg-light);
+  min-height: initial;
+  margin-top: 200px;
+  height: 150px;
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+.map {
+  background-color: #f4eea9;
+  padding-bottom: 50px;
+  .googleMap {
+    width: 90%;
+    max-width: 1440px;
+    background-color: white;
+    height: 300px;
+    margin: 0 auto;
+  }
+}

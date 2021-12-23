@@ -5,16 +5,8 @@ import Image from 'next/image';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import styles from '../styles/Order.module.scss';
+import { items } from '../utilities/items';
 
-type Item = {
-  name: string;
-  description: string;
-  price: string;
-  image: string;
-};
-interface Items {
-  [key: string]: Item[];
-}
 const OrderItem: FC<{ value: Item }> = ({ value }) => {
   return (
     <div className={styles.orderItem}>
@@ -36,22 +28,6 @@ const OrderItem: FC<{ value: Item }> = ({ value }) => {
   );
 };
 const Order: NextPage = () => {
-  const placeholderItem: Item = {
-    name: 'Lorem ipsum dolor sit.',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    price: '60kr',
-    image: '/images/placeholder.png',
-  };
-  const items: Items = {
-    'TEA FUSION SPECIALS': [placeholderItem, placeholderItem, placeholderItem],
-    'MILK TEA': [placeholderItem],
-    'SLUSH SMOOTHIE AND YOGURT': [placeholderItem, placeholderItem],
-    'FRUIT TEA': [placeholderItem, placeholderItem, placeholderItem],
-    'JAPANESE DRINKS': [placeholderItem, placeholderItem],
-    'SPECIALITY ICE CREAM': [placeholderItem],
-    'BOWL MEAL': [placeholderItem],
-  };
-  console.log(items);
   return (
     <div className={styles.container}>
       <Head>
@@ -97,18 +73,14 @@ const Order: NextPage = () => {
               </div>
               <div className={styles.orderItems}>
                 {Object.keys(items).map((key, i) => {
-                  const values: Item[] = items[key];
                   return (
                     <div className={styles.orderItemsWrapper} key={i}>
                       <div className={styles.orderItemsInfo}>
                         <h2>{key}</h2>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Quibusdam, deleniti. Quaerat, rem!
-                        </p>
+                        <p>{items[key].description}</p>
                       </div>
                       <div className={styles.orderItemsList}>
-                        {values.map((value: Item, itemId) => (
+                        {items[key].values.map((value: Item, itemId) => (
                           <OrderItem key={i + '_' + itemId} value={value} />
                         ))}
                       </div>
