@@ -27,6 +27,7 @@ const OrderItem: FC<{ value: Item }> = ({ value }) => {
     </div>
   );
 };
+
 const Order: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -67,20 +68,20 @@ const Order: NextPage = () => {
             <h1 className={styles.title}>Bestillingsskjema</h1>
             <div className={styles.orderDisplay}>
               <div className={styles.orderNav}>
-                {Object.keys(items).map((key) => (
-                  <button key={key}>{key}</button>
+                {items.map((item) => (
+                  <button key={item.key}>{item.key}</button>
                 ))}
               </div>
               <div className={styles.orderItems}>
-                {Object.keys(items).map((key, i) => {
+                {items.map((item, i) => {
                   return (
                     <div className={styles.orderItemsWrapper} key={i}>
                       <div className={styles.orderItemsInfo}>
-                        <h2>{key}</h2>
-                        <p>{items[key].description}</p>
+                        <h2>{item.key}</h2>
+                        <p>{item.description}</p>
                       </div>
                       <div className={styles.orderItemsList}>
-                        {items[key].values.map((value: Item, itemId) => (
+                        {item.values.map((value: Item, itemId) => (
                           <OrderItem key={i + '_' + itemId} value={value} />
                         ))}
                       </div>

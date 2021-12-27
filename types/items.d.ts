@@ -7,5 +7,7 @@ type Item = {
 };
 
 interface Items {
-  [key: string]: { values: Item[]; description: string };
+  key: string;
+  values: Item[];
+  description: string;
 }

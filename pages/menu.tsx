@@ -56,14 +56,14 @@ const Menu: NextPage = () => {
         </header>
         <div className={styles.section}>
           <div className={styles.menuGrid}>
-            {Object.keys(items).map((key, i) => {
+            {items.map((item, i) => {
               return (
                 <ul key={i}>
                   <li className={styles.menuTitle}>
-                    {key}
-                    <span>{items[key].description}</span>
+                    {item.key}
+                    <span>{item.description}</span>
                   </li>
-                  {items[key].values.map((value: Item, itemId) => (
+                  {item.values.map((value: Item, itemId) => (
                     <MenuItem key={i + '_' + itemId} value={value} />
                   ))}
                 </ul>
