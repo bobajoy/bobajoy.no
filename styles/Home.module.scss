@@ -115,7 +115,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 90%;
-    max-width: 640px;
+    max-width: 720px;
     margin: 0 auto;
     grid-gap: 10px;
     & > div {
@@ -126,7 +126,6 @@
       &.welcomeText {
         display: flex;
         flex-direction: column;
-        //justify-content: space-between;
         padding-bottom: 14px;
         .buttonWrapper {
           height: 50px;

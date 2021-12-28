@@ -9,13 +9,13 @@ import { items } from '../utilities/items';
 const MenuItem: FC<{ value: Item }> = ({ value }) => {
   return (
     <li className={styles.menuItem}>
-      <span className={styles.menuInfo}>
-        {value.name}
+      <p className={styles.menuInfo}>
+        <span className={styles.menuName}>{value.name}</span>
         <span>{value.ingredients}</span>
-      </span>
-      <span className={styles.menuPrice}>
-        <p> {value.price}</p>
-      </span>
+      </p>
+      <p>
+        <span className={styles.menuPrice}>{value.price}</span>
+      </p>
     </li>
   );
 };

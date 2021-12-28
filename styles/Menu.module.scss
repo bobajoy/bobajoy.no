@@ -42,6 +42,9 @@
     max-width: 1080px;
     margin: 0 auto;
     margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
     ul {
       width: 100%;
       min-height: 200px;
@@ -55,7 +58,7 @@
         border-top: 1px solid #496648;
         border-bottom: 1px solid #496648;
         color: #496648;
-        padding: 16px 0;
+        padding: 12px 0;
         margin: 0 0 20px 0;
         font-size: 20px;
       }
@@ -64,15 +67,18 @@
         justify-content: space-between;
         align-items: flex-start;
         .menuInfo {
-          span {
-            font-size: 0.8rem;
+          font-size: 0.75rem;
+          .menuName {
+            color: #496648;
+            font-size: 0.9rem;
           }
         }
         .menuPrice {
-          margin: 0;
+          color: #496648;
         }
       }
-      span {
+      span,
+      p {
         display: block;
         font-size: 0.85rem;
         margin-top: 5px;
