@@ -4,8 +4,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.scss';
 import logo from '../public/images/logo.png';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Home: NextPage = () => {
   const images = Array(8).fill('/images/placeholder.png');

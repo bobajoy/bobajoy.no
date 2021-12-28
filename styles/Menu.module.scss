@@ -6,31 +6,6 @@
   width: 100%;
   background-color: var(--bg-light);
   font-family: 'Be Vietnam Pro', sans-serif;
-  .header {
-    color: white;
-    position: relative;
-    display: flex;
-    height: 300px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-dark);
-    background: linear-gradient(230deg, #b5c144 19%, #d1dd62 104%);
-    .title {
-      font-family: 'Coiny', cursive;
-      font-weight: 500;
-      position: relative;
-      top: -20px;
-      font-size: 2.5rem;
-      color: white;
-    }
-    .headerWave {
-      position: absolute;
-      bottom: -15px;
-      left: 0;
-      width: 100%;
-    }
-  }
   .title {
     font-size: 1.7rem;
   }
@@ -108,16 +83,5 @@
     bottom: 0;
     left: 0;
     width: 100%;
-  }
-}
-.map {
-  background-color: #f4eea9;
-  padding-bottom: 50px;
-  .googleMap {
-    width: 90%;
-    max-width: 1440px;
-    background-color: white;
-    height: 300px;
-    margin: 0 auto;
   }
 }
