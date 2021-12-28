@@ -3,6 +3,7 @@ import Link from 'next/link';
 import colorLogo from '../public/images/color_logo.png';
 
 const Footer = () => {
+  const iconSize = 18;
   return (
     <footer>
       <div className="footerWrapper">
@@ -82,8 +83,8 @@ const Footer = () => {
           <a href="mailto:info@bobajoy.no?subject=Website%20Contact">
             <Image
               src="/images/mail.svg"
-              width={24}
-              height={24}
+              width={iconSize}
+              height={iconSize}
               alt="mailIcon"
             />
             <p>info@bobajoy.no</p>
@@ -91,8 +92,8 @@ const Footer = () => {
           <a href="tel:+4745380678">
             <Image
               src="/images/phone.svg"
-              width={24}
-              height={24}
+              width={iconSize}
+              height={iconSize}
               alt="phoneIcon"
             />
             <p>+47 45380678</p>
@@ -104,8 +105,8 @@ const Footer = () => {
           >
             <Image
               src="/images/address.svg"
-              width={24}
-              height={24}
+              width={iconSize}
+              height={iconSize}
               alt="addressIcon"
             />
             <address>
