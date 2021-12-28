@@ -9,17 +9,40 @@
   .title {
     font-size: 1.7rem;
   }
+  .allergiesWrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px 30px 30px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    div {
+      padding: 30px;
+      border: 1px solid #496648;
+      color: #496648;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      span {
+        margin: 2px 20px;
+      }
+    }
+  }
   .menuGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     width: 90%;
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
     padding: 30px;
+    padding-bottom: 50px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     ul {
       width: 100%;
       min-height: 200px;

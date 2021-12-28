@@ -31,6 +31,15 @@ const OrderItem: FC<{ value: Item }> = ({ value }) => {
 };
 
 const Order: NextPage = () => {
+  const smoothScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element)
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'nearest',
+      });
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -46,14 +55,26 @@ const Order: NextPage = () => {
             <div className={styles.orderDisplay}>
               <div className={styles.orderNav}>
                 {items.map((item) => (
-                  <button key={item.key}>{item.key}</button>
+                  <button
+                    key={item.key}
+                    onClick={() =>
+                      smoothScroll(
+                        item.key.toLocaleLowerCase().replaceAll(' ', '_')
+                      )
+                    }
+                  >
+                    {item.key}
+                  </button>
                 ))}
               </div>
               <div className={styles.orderItems}>
                 {items.map((item, i) => {
                   return (
                     <div className={styles.orderItemsWrapper} key={i}>
-                      <div className={styles.orderItemsInfo}>
+                      <div
+                        className={styles.orderItemsInfo}
+                        id={item.key.toLocaleLowerCase().replaceAll(' ', '_')}
+                      >
                         <h2>{item.key}</h2>
                         <p>{item.description}</p>
                       </div>
@@ -68,15 +89,13 @@ const Order: NextPage = () => {
               </div>
               <div className={styles.orderInfo}>
                 <h2>Min bestilling</h2>
-                <p>2 varer</p>
+                <p>0 varer</p>
                 <div className={styles.orderInfoItems}>
                   <div className={styles.orderInfoItem}>
-                    <p>1- Plain Milk Tea - Black (Medium size)</p>
-                    <p>60kr</p>
-                  </div>
-                  <div className={styles.orderInfoItem}>
-                    <p>1- Plain Milk Tea - Black (Large size)</p>
-                    <p>60kr</p>
+                    <p>&quot;Currently in maintenance&quot;</p>
+                    <p>
+                      <i>Ute av drift</i>
+                    </p>
                   </div>
                 </div>
               </div>

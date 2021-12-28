@@ -47,6 +47,15 @@ const Menu: NextPage = () => {
               );
             })}
           </div>
+          <div className={styles.allergiesWrapper}>
+            <div>
+              <span>XXX = Lorem ipsum dolor sit amet.</span>
+              <span>XXX = Lorem ipsum dolor sit.</span>
+              <span>XXX = Lorem ipsum dolor sit amet.</span>
+              <span>XXX = Lorem ipsum dolor sit.</span>
+              <span>XXX = Lorem, ipsum dolor.</span>
+            </div>
+          </div>
         </div>
         <Map />
       </main>

@@ -107,8 +107,9 @@ header.navigation {
     .iconLink {
       display: inline-flex;
       align-items: center;
+      width: 29px;
       &:first-of-type {
-        justify-content: flex-end;
+        justify-self: flex-end;
       }
       svg > path {
         transition: fill 0.6s;

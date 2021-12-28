@@ -35,6 +35,7 @@
         max-height: calc(100vh - 320px);
         overflow-y: auto;
         button {
+          display: list-item;
           background-color: transparent;
           color: black;
           text-align: left;
