@@ -35,7 +35,7 @@ const Home: NextPage = () => {
               <h2>Bubble tea & more</h2>
             </div>
             <div className={styles.buttonWrapper}>
-              <Link href="/menu">
+              <Link href="/order">
                 <a className="btn">Bestill nå</a>
               </Link>
             </div>
@@ -76,16 +76,18 @@ const Home: NextPage = () => {
                 </p>
               </div>
               <div className={styles.buttonWrapper}>
-                <Link href="/menu">
+                <Link href="/about">
                   <a className="btn">Les mer om oss</a>
                 </Link>
               </div>
             </div>
             <div>
+              <div className={styles.mapIconBg}></div>
               <h2>Her finner du oss</h2>
               <p>Olav Tryggvason gt. 1, 7011 Trondheim</p>
             </div>
-            <div>
+            <div className={styles.hashtagText}>
+              <div className={styles.hashtagIconBg}></div>
               <h2>Del dine bobler sammen med oss!</h2>
               <p>#bobajoyno</p>
               <p>#bobajoy</p>

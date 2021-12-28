@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="footerSocialIcons">
             <a
-              href="https://www.facebook.com/bobajoy/"
+              href="https://www.facebook.com/"
               target="_blank"
               rel="noreferrer"
               className="iconLink"
@@ -32,7 +32,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/bobajoyno/"
+              href="https://www.instagram.com/bobajoy.no/"
               target="_blank"
               rel="noreferrer"
               className="iconLink"
@@ -80,14 +80,14 @@ const Footer = () => {
 
         <div className="footerMenuWrapper footerContact">
           <h4>Contacts</h4>
-          <a href="mailto:info@bobajoy.no?subject=Website%20Contact">
+          <a href="mailto:bobajoytrondheim@gmail.com?subject=Website%20Contact">
             <Image
               src="/images/mail.svg"
               width={iconSize}
               height={iconSize}
               alt="mailIcon"
             />
-            <p>info@bobajoy.no</p>
+            <p>bobajoytrondheim@gmail.com</p>
           </a>
           <a href="tel:+4745380678">
             <Image

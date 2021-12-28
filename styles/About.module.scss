@@ -1,0 +1,36 @@
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--bg-light);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  .textWrapper {
+    position: relative;
+    background-color: white;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 10px solid #dde49e;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .title {
+      font-size: 1.7rem;
+      margin: 0;
+    }
+  }
+}
+.title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #303030;
+}
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--bg-light);
+  letter-spacing: 1px;
+}

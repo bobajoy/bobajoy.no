@@ -39,7 +39,7 @@ const Header = () => {
       </nav>
       <div className="icons">
         <a
-          href="https://www.facebook.com/bobajoy/"
+          href="https://www.facebook.com/"
           target="_blank"
           rel="noreferrer"
           className="iconLink"
@@ -58,7 +58,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/bobajoyno/"
+          href="https://www.instagram.com/bobajoy.no/"
           target="_blank"
           rel="noreferrer"
           className="iconLink"
