@@ -59,7 +59,7 @@ const Order: NextPage = () => {
                     key={item.key}
                     onClick={() =>
                       smoothScroll(
-                        item.key.toLocaleLowerCase().replaceAll(' ', '_')
+                        item.key.toLocaleLowerCase().split(' ').join('_')
                       )
                     }
                   >
@@ -73,7 +73,7 @@ const Order: NextPage = () => {
                     <div className={styles.orderItemsWrapper} key={i}>
                       <div
                         className={styles.orderItemsInfo}
-                        id={item.key.toLocaleLowerCase().replaceAll(' ', '_')}
+                        id={item.key.toLocaleLowerCase().split(' ').join('_')}
                       >
                         <h2>{item.key}</h2>
                         <p>{item.description}</p>
