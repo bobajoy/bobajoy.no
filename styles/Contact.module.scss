@@ -94,3 +94,22 @@
   background-color: var(--bg-light);
   letter-spacing: 1px;
 }
+
+@media (max-width: 900px) {
+  .main {
+    .formWrapper {
+      form {
+        & > div {
+          width: 90%;
+          .inputWrapper {
+            display: block;
+          }
+        }
+        .formWave {
+          bottom: 0;
+          transform: translateY(60%);
+        }
+      }
+    }
+  }
+}

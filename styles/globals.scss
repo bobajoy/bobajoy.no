@@ -366,6 +366,7 @@ footer {
       justify-content: center;
       flex-direction: column;
       text-align: center;
+      margin-bottom: 0;
       .footerLogoWrapper {
         width: 100%;
         margin-right: 0;
@@ -383,6 +384,9 @@ footer {
           text-align: left;
         }
       }
+    }
+    .footerCreditsWrapper {
+      font-size: 0.75rem;
     }
   }
 }
