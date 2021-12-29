@@ -23,7 +23,7 @@ const Header = () => {
           <Image src={logo} alt="BobaJoy logo" width={240} height={42} />
         </a>
       </Link>
-      <nav>
+      <nav className={`${hideMobileNav ? 'hidden' : ''}`}>
         <Link href="/">
           <a>Hjem</a>
         </Link>
@@ -37,6 +37,7 @@ const Header = () => {
           <a>Kontakt oss</a>
         </Link>
       </nav>
+      <div className="whitespace"></div>
       <div className="icons">
         <a
           href="https://www.facebook.com/"

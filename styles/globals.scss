@@ -63,6 +63,9 @@ header.navigation {
   &.hidden {
     background-color: var(--transparent);
   }
+  .whitespace {
+    position: absolute;
+  }
   .logoWrapper {
     height: 100%;
     display: inline-flex;
@@ -123,39 +126,38 @@ header.navigation {
     .burger {
       position: relative;
       background-color: var(--transparent);
-      width: 24px;
-      height: 24px;
+      width: 29px;
+      height: 29px;
       padding: 0;
       display: none;
       &.active {
         span {
-          transform: rotate(45deg) translate(5.5px, 4px);
+          left: 0;
+          transform: rotate(45deg) translate(7.5px, 4px);
           &:first-of-type {
-            top: 12px;
             opacity: 0;
             transform: rotate(0deg) translate(0, 0);
           }
           &:last-of-type {
-            bottom: 1px;
-            top: auto;
-            transform: rotate(-45deg) translate(7.5px, -6px);
+            transform: rotate(-45deg) translate(9.5px, -6px);
           }
         }
       }
       span {
         position: absolute;
         display: block;
-        width: 100%;
-        height: 2px;
-        left: 0;
-        top: 4px;
-        background-color: var(--bg-dark);
+        width: 27px;
+        height: 2.5px;
+        border-radius: 25px;
+        left: 2px;
+        top: 5px;
+        background-color: white;
         transition: all 0.5s;
         &:first-of-type {
-          top: 12px;
+          top: 15px;
         }
         &:last-of-type {
-          bottom: 1px;
+          bottom: 2px;
           top: auto;
         }
       }
@@ -246,5 +248,117 @@ footer {
     text-align: center;
     font-size: 1rem;
     border-top: 1px solid #a7a7a7;
+  }
+}
+
+@media (max-width: 900px) {
+  header.navigation {
+    display: flex;
+    .logoWrapper {
+      width: 200px;
+    }
+    nav {
+      position: absolute;
+      flex-direction: column;
+      width: 80%;
+      height: 200vh;
+      top: 0;
+      right: 0;
+      color: var(--text-dark);
+      background-color: var(--bg);
+      text-align: right;
+      justify-content: flex-start;
+      padding-top: 60px;
+      transition: transform 0.7s ease-in-out;
+      z-index: 2;
+      &::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        height: 1px;
+        background-color: var(--bg-navBorder);
+      }
+      & + .whitespace {
+        position: absolute;
+        width: 100vw;
+        height: 200vh;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+        opacity: 1;
+        pointer-events: all;
+        transition: opacity 1s;
+      }
+      &.hidden {
+        transform: translateX(105%);
+        & + .whitespace {
+          opacity: 0;
+          pointer-events: none;
+        }
+      }
+      a {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: color 0.6s;
+        height: 40px;
+        margin: 10px 0;
+        padding-right: 24px;
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+        &.active,
+        &:hover {
+          color: var(--primary);
+          &::before {
+            width: 80%;
+          }
+        }
+        &::before {
+          content: '';
+          width: 0;
+          height: 100%;
+          background-color: rgba(188, 240, 93, 0.35);
+          position: absolute;
+          border-radius: 50px 0 0 50px;
+          right: 0;
+          left: auto;
+          bottom: -2px;
+          transition: width 0.5s;
+        }
+      }
+    }
+    .icons {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 15px;
+      z-index: 3;
+      .burger {
+        display: block;
+        &:hover span {
+          background-color: var(--primary);
+        }
+        span {
+          background-color: #fff;
+        }
+      }
+      .facebookIcon {
+        svg > path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+  nav:not(.hidden) {
+    & ~ .icons {
+      .burger span {
+        background-color: black;
+      }
+      svg > path {
+        fill: black;
+      }
+    }
   }
 }
