@@ -350,14 +350,38 @@ footer {
         }
       }
     }
-  }
-  nav:not(.hidden) {
-    & ~ .icons {
-      .burger span {
-        background-color: black;
+    nav:not(.hidden) {
+      & ~ .icons {
+        .burger span {
+          background-color: black;
+        }
+        svg > path {
+          fill: black;
+        }
       }
-      svg > path {
-        fill: black;
+    }
+  }
+  footer {
+    .footerWrapper {
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      .footerLogoWrapper {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+      .footerMenuWrapper {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .footerContact {
+        a {
+          justify-content: center;
+        }
+        address {
+          text-align: left;
+        }
       }
     }
   }
