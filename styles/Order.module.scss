@@ -13,7 +13,7 @@
     background-color: white;
     max-width: 1200px;
     padding: 0 20px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 60px;
     border-radius: 10px;
@@ -151,5 +151,69 @@
     bottom: 0;
     left: 0;
     width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .main {
+    .orderWrapper {
+      margin-bottom: 50px;
+      .orderDisplay {
+        grid-template-columns: 1fr;
+        padding-left: 0;
+        .orderNav {
+          position: relative;
+          top: 0;
+        }
+        .orderItems {
+          .orderItemsWrapper {
+            .orderItemsList {
+              .orderItem {
+                display: grid;
+                grid-template-columns: 1fr 150px;
+                grid-gap: 10px;
+                .orderItemInfo {
+                  width: 100%;
+                }
+                .orderItemImage {
+                  width: auto;
+                  height: 100%;
+                  object-fit: cover;
+                  & > span {
+                    height: 100% !important;
+                    object-fit: cover;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .orderInfo {
+          margin-bottom: 30px;
+          padding: 0 0.5rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .main {
+    .orderWrapper {
+      .orderDisplay {
+        .orderItems {
+          .orderItemsWrapper {
+            .orderItemsInfo {
+              padding: 0.5rem 0 1.5rem 0.5rem;
+              margin: 0 0 0.5rem 0;
+            }
+            .orderItemsList {
+              .orderItem {
+                grid-template-columns: 1fr 100px;
+                margin: -1px 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
