@@ -59,6 +59,9 @@
           display: inline-block;
           padding: 15px 50px;
           margin: 6px;
+          &:hover::before {
+            transform: translate(-6px, -6px);
+          }
           &:before {
             content: '';
             position: absolute;
@@ -68,6 +71,7 @@
             top: 6px;
             left: 6px;
             z-index: -1;
+            transition: 0.25s transform cubic-bezier(0, 0, 0.88, 1.92);
             background-color: var(--secondary-button);
           }
         }

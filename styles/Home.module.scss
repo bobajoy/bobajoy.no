@@ -81,7 +81,10 @@
     &.secondaryBtn {
       background-color: var(--secondary-button);
     }
-    &:before {
+    &:hover::before {
+      transform: translate(-6px, -6px);
+    }
+    &::before {
       content: '';
       position: absolute;
       display: inline-block;
@@ -90,6 +93,7 @@
       top: 6px;
       left: 6px;
       z-index: -1;
+      transition: 0.25s transform cubic-bezier(0, 0, 0.88, 1.92);
       background-color: var(--secondary-button);
     }
   }
