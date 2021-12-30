@@ -16,7 +16,7 @@ const About: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Om oss" />
-        <div className={styles.section}>
+        <div className={styles.section} data-aos="fade-up">
           <div className={styles.textWrapper}>
             <h2 className={styles.title}>Vår reise</h2>
             <p>

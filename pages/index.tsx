@@ -25,16 +25,26 @@ const Home: NextPage = () => {
                 alt="BobaJoy polarbear logo"
                 width={100}
                 height={256}
+                data-aos="fade-in"
+                data-aos-delay="200"
               />
               <Image
                 src={logo}
                 alt="BobaJoy text logo"
                 width={300}
                 height={28}
+                data-aos="fade-in"
+                data-aos-delay="240"
               />
-              <h2>Bubble tea & more</h2>
+              <h2 data-aos="fade-in" data-aos-delay="240">
+                Bubble tea & more
+              </h2>
             </div>
-            <div className={styles.buttonWrapper}>
+            <div
+              className={styles.buttonWrapper}
+              data-aos="fade-in"
+              data-aos-delay="280"
+            >
               <Link href="/order">
                 <a className="btn">Bestill nå</a>
               </Link>
@@ -64,7 +74,10 @@ const Home: NextPage = () => {
             />
           </svg>
         </div>
-        <div className={`${styles.section} ${styles.gridWrapper}`}>
+        <div
+          className={`${styles.section} ${styles.gridWrapper}`}
+          data-aos="fade-up"
+        >
           <div className={styles.grid}>
             <div className={styles.welcomeText}>
               <div>
@@ -97,7 +110,7 @@ const Home: NextPage = () => {
         <div className={`${styles.section} ${styles.selectionWrapper}`}>
           <h1 className={styles.title}>Utvalgte teer</h1>
           <div>
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper} data-aos="fade-right">
               <div className={styles.cardImage}>
                 <Image
                   src="/images/placeholder.png"
@@ -129,7 +142,10 @@ const Home: NextPage = () => {
                 />
               </svg>
             </div>
-            <div className={`${styles.cardWrapper} ${styles.cardReverse}`}>
+            <div
+              className={`${styles.cardWrapper} ${styles.cardReverse}`}
+              data-aos="fade-left"
+            >
               <div className={styles.cardImage}>
                 <Image
                   src="/images/placeholder.png"
@@ -163,7 +179,10 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className={`${styles.section} ${styles.menuWrapper}`}>
+        <div
+          className={`${styles.section} ${styles.menuWrapper}`}
+          data-aos="zoom-in-up"
+        >
           <div>
             <h1 className={styles.title}>Vår meny!</h1>
             <div className={styles.buttonWrapper}>

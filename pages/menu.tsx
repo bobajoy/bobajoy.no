@@ -31,7 +31,7 @@ const Menu: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Meny" />
-        <div className={styles.section}>
+        <div className={styles.section} data-aos="fade-up">
           <div className={styles.menuGrid}>
             {items.map((item, i) => {
               return (

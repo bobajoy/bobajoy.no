@@ -4,7 +4,9 @@ import styles from '../styles/SmallPageHeader.module.scss';
 const SmallPageHeader: FC<{ title: string }> = ({ title }) => {
   return (
     <header className={styles.header}>
-      <h1 className={styles.title}>{title}</h1>
+      <h1 className={styles.title} data-aos="fade-in" data-aos-delay="120">
+        {title}
+      </h1>
       <svg
         viewBox="0 0 1440 161"
         className={styles.headerWave}

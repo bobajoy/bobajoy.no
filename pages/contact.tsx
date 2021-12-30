@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { SyntheticEvent, useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Map from '../components/Map';
@@ -7,6 +8,18 @@ import SmallPageHeader from '../components/SmallPageHeader';
 import styles from '../styles/Contact.module.scss';
 
 const Contact: NextPage = () => {
+  const [name, setName] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [subject, setSubject] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
+  const submitHandler = (event: SyntheticEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    contactSubmit({ name, email, subject, message });
+  };
+  const contactSubmit = ({ name, email, subject, message }: FormType) => {
+    console.log(name, email, subject, message);
+    window.location.href = `mailto:bobajoytrondheim@gmail.com?subject=${subject}&body=${message}${email}`;
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -16,24 +29,38 @@ const Contact: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Kontakt oss" />
-        <div className={styles.section}>
+        <div className={styles.section} data-aos="fade-up">
           <h2 className={styles.title}>Gi oss tilbakemeldinger</h2>
           <div className={styles.formWrapper}>
-            <form action="">
+            <form onSubmit={submitHandler}>
               <div>
                 <div className={styles.inputWrapper}>
                   <label>
                     Ditt navn*:
-                    <input type="text" required />
+                    <input
+                      type="text"
+                      value={name}
+                      onChange={({ target }) => setName(target.value)}
+                      required
+                    />
                   </label>
                   <label>
                     Din epost*
-                    <input type="email" required />
+                    <input
+                      type="email"
+                      value={email}
+                      onChange={({ target }) => setEmail(target.value)}
+                      required
+                    />
                   </label>
                 </div>
                 <label>
                   Emne
-                  <input type="text" />
+                  <input
+                    type="text"
+                    value={subject}
+                    onChange={({ target }) => setSubject(target.value)}
+                  />
                 </label>
                 <label>
                   Din melding*
@@ -42,6 +69,8 @@ const Contact: NextPage = () => {
                     id=""
                     cols={30}
                     rows={10}
+                    value={message}
+                    onChange={({ target }) => setMessage(target.value)}
                     required
                   ></textarea>
                 </label>

@@ -49,7 +49,7 @@ const Order: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Bestill" />
-        <div className={styles.section}>
+        <div className={styles.section} data-aos="fade-up">
           <div className={styles.orderWrapper}>
             <h1 className={styles.title}>Bestillingsskjema</h1>
             <div className={styles.orderDisplay}>
