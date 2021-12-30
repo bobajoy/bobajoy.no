@@ -108,3 +108,15 @@
     width: 100%;
   }
 }
+@media (max-width: 900px) {
+  .main {
+    .menuGrid {
+      grid-template-columns: 1fr;
+    }
+    .allergiesWrapper {
+      & > div {
+        padding: 10px;
+      }
+    }
+  }
+}
