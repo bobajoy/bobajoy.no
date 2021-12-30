@@ -32,7 +32,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/bobajoy.no/"
+              href="https://www.instagram.com/bobajoytrondheim/"
               target="_blank"
               rel="noreferrer"
               className="iconLink"
