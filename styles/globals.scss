@@ -209,7 +209,7 @@ footer {
       }
     }
     .footerMenuWrapper {
-      width: 25%;
+      width: 40%;
       margin: 0 auto;
       display: inline-flex;
       flex-direction: column;
@@ -223,6 +223,7 @@ footer {
         margin: 0;
       }
       &.footerQuickLinks {
+        width: 25%;
         a {
           margin-bottom: 10px;
         }
@@ -233,6 +234,7 @@ footer {
         }
       }
       &.footerContact {
+        min-width: 230px;
         a {
           display: inline-flex;
           align-items: flex-start;
