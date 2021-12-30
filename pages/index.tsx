@@ -163,6 +163,28 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+        <div className={`${styles.section} ${styles.menuWrapper}`}>
+          <div>
+            <h1 className={styles.title}>Vår meny!</h1>
+            <div className={styles.buttonWrapper}>
+              <Link href="/menu">
+                <a className="btn">Se hele menyen her</a>
+              </Link>
+            </div>
+            <div className={styles.bubbles}>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+              <div className={styles.bubble}></div>
+            </div>
+          </div>
+        </div>
         <div className={`${styles.section} ${styles.galleryWrapper}`}>
           <h1 className={styles.title}>Følg oss på instagram!</h1>
           <div className={styles.gallery}>
