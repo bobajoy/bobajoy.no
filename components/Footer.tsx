@@ -14,6 +14,7 @@ const Footer = () => {
           <div className="footerSocialIcons">
             <a
               href="https://www.facebook.com/"
+              aria-label="Facebook"
               target="_blank"
               rel="noreferrer"
               className="iconLink"
@@ -33,6 +34,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.instagram.com/bobajoytrondheim/"
+              aria-label="Instagram"
               target="_blank"
               rel="noreferrer"
               className="iconLink"

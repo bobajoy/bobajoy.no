@@ -41,6 +41,7 @@ const Header = () => {
       <div className="icons">
         <a
           href="https://www.facebook.com/"
+          aria-label="Facebook"
           target="_blank"
           rel="noreferrer"
           className="iconLink"
@@ -60,6 +61,7 @@ const Header = () => {
         </a>
         <a
           href="https://www.instagram.com/bobajoytrondheim/"
+          aria-label="Instagram"
           target="_blank"
           rel="noreferrer"
           className="iconLink"
@@ -80,6 +82,7 @@ const Header = () => {
         <button
           className={`burger ${!hideMobileNav ? 'active' : ''}`}
           onClick={() => setHideMobileNav(!hideMobileNav)}
+          aria-label="Burger Menu"
         >
           <span></span>
           <span></span>
