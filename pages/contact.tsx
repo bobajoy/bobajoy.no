@@ -18,7 +18,9 @@ const Contact: NextPage = () => {
   };
   const contactSubmit = ({ name, email, subject, message }: FormType) => {
     console.log(name, email, subject, message);
-    window.location.href = `mailto:bobajoytrondheim@gmail.com?subject=${subject}&body=${message}${email}`;
+    window.location.href = encodeURI(
+      `mailto:bobajoytrondheim@gmail.com?subject=${subject}&body=${message}\n\n- ${name}\n${email}`
+    );
   };
   return (
     <div className={styles.container}>
