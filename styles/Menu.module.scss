@@ -108,6 +108,52 @@
     width: 100%;
   }
 }
+.menuImageWrapper {
+  width: 90%;
+  max-width: 1080px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  p {
+    text-align: center;
+  }
+  & > span {
+    border-radius: 10px;
+  }
+  .buttonWrapper {
+    z-index: 1;
+    margin: 30px auto;
+    max-width: 400px;
+    .btn {
+      position: relative;
+      display: inline-block;
+      padding: 15px 50px;
+      margin: 6px;
+      width: 100%;
+      text-align: center;
+      &:hover::before {
+        transform: translate(-6px, -6px);
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        top: 6px;
+        left: 6px;
+        z-index: -1;
+        transition: 0.25s transform cubic-bezier(0, 0, 0.88, 1.92);
+        background-color: var(--secondary-button);
+      }
+    }
+  }
+}
+// TODO:
+.menuGrid,
+.allergiesWrapper {
+  display: none !important;
+}
 @media (max-width: 900px) {
   .main {
     .menuGrid {

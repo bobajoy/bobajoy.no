@@ -1,5 +1,6 @@
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 import type { NextPage } from 'next';
+import Router from 'next/router';
 import Head from 'next/head';
 import Image from 'next/image';
 import Footer from '../components/Footer';
@@ -8,6 +9,7 @@ import styles from '../styles/Order.module.scss';
 import { items } from '../utilities/items';
 import SmallPageHeader from '../components/SmallPageHeader';
 import Map from '../components/Map';
+import Swal from 'sweetalert2';
 
 const OrderItem: FC<{ value: Item }> = ({ value }) => {
   return (
@@ -31,6 +33,17 @@ const OrderItem: FC<{ value: Item }> = ({ value }) => {
 };
 
 const Order: NextPage = () => {
+  useEffect(() => {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Bestillingsskjemaet er foreløpig ute av drift!',
+      confirmButtonText: 'Se menyen istedet',
+      confirmButtonAriaLabel: 'Se menyen',
+      confirmButtonColor: '#9cbd32',
+    }).then((result) => {
+      if (result.isConfirmed) Router.push('/menu');
+    });
+  }, []);
   const smoothScroll = (id: string) => {
     const element = document.getElementById(id);
     if (element)

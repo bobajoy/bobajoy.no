@@ -7,6 +7,7 @@ import SmallPageHeader from '../components/SmallPageHeader';
 import styles from '../styles/Menu.module.scss';
 import { items } from '../utilities/items';
 import Map from '../components/Map';
+import Image from 'next/image';
 
 const MenuItem: FC<{ value: Item }> = ({ value }) => {
   return (
@@ -32,6 +33,30 @@ const Menu: NextPage = () => {
       <main className={styles.main}>
         <SmallPageHeader title="Meny" />
         <div className={styles.section} data-aos="fade-up">
+          <div className={styles.menuImageWrapper}>
+            <p>
+              <b>Opening hours</b>:<br />
+              Man-Lør: 11:00-20:00
+              <br />
+              Søn: 12:00-19:00
+            </p>
+            <Image
+              src="/images/meny.png"
+              alt="A placeholder for images"
+              width={1920}
+              height={1080}
+              layout="responsive"
+            />
+            <div className={styles.buttonWrapper}>
+              <a
+                href="/_next/image?url=%2Fimages%2Fmeny.png&w=1080&q=100"
+                target="_blank"
+                className={`btn ${styles.btn}`}
+              >
+                Last ned menyen
+              </a>
+            </div>
+          </div>
           <div className={styles.menuGrid}>
             {items.map((item, i) => {
               return (

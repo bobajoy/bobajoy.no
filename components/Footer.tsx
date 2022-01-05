@@ -33,7 +33,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/bobajoytrondheim/"
+              href="https://www.instagram.com/bobajoy.no/"
               aria-label="Instagram"
               target="_blank"
               rel="noreferrer"
@@ -73,10 +73,10 @@ const Footer = () => {
         <div className="footerMenuWrapper footerOpeningHours">
           <h4>Opening hours</h4>
           <p className="footer_link">
-            Man - Fre &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 22:00
+            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:00
           </p>
           <p className="footer_link">
-            Lør - Søn &nbsp;&nbsp;&nbsp;&nbsp; 13:00 - 22:00
+            Søn &nbsp;&nbsp;&nbsp;&nbsp; 12:00 - 19:00
           </p>
         </div>
 

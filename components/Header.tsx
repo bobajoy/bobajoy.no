@@ -60,7 +60,7 @@ const Header = () => {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/bobajoytrondheim/"
+          href="https://www.instagram.com/bobajoy.no/"
           aria-label="Instagram"
           target="_blank"
           rel="noreferrer"

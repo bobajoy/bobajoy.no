@@ -45,8 +45,8 @@ const Home: NextPage = () => {
               data-aos="fade-in"
               data-aos-delay="280"
             >
-              <Link href="/order">
-                <a className="btn">Bestill nå</a>
+              <Link href="/menu">
+                <a className="btn">Se menyen nå</a>
               </Link>
             </div>
           </div>
@@ -83,9 +83,10 @@ const Home: NextPage = () => {
               <div>
                 <h2>Vi ønsker deg velkommen til Bobajoy</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
-                  ipsum scelerisque volutpat felis, felis consequat viverra.
-                  Ullamcorper a amet, euismod venenatis amet...
+                  Vi er en ny butikk som kom til Trondheim i starten av 2022. Vi
+                  selger bubble tea, fresh iced tea, smoothies, slushes, varme
+                  drikker for vinteren, og all slags type asiatiske godsaker. Vi
+                  ønsker å bli et komfortabelt og trygt sted for deg...
                 </p>
               </div>
               <div className={styles.buttonWrapper}>
@@ -103,7 +104,7 @@ const Home: NextPage = () => {
               <div className={styles.hashtagIconBg}></div>
               <h2>Del dine bobler sammen med oss!</h2>
               <p>#bobajoyno</p>
-              <p>#bobajoy</p>
+              <p>#bobajoy.no</p>
             </div>
           </div>
         </div>
@@ -121,13 +122,9 @@ const Home: NextPage = () => {
                 />
               </div>
               <div className={styles.cardText}>
-                <h2>Lorem ipsum dolor sit amet</h2>
+                <h2>Sort melkte med brunsukker</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
-                  ipsum scelerisque volutpat felis, felis consequat viverra.
-                  Ullamcorper a amet, euismod venenatis amet, at ornare sed
-                  phasellus. Sapien, malesuada neque hendrerit semper. Orci duis
-                  laoreet urna aliquam ut et feugiat.
+                  <b>Ingredienser</b>: Melk, Kremfløte, Brunsukker tapioca
                 </p>
               </div>
               <svg
@@ -156,13 +153,10 @@ const Home: NextPage = () => {
                 />
               </div>
               <div className={styles.cardText}>
-                <h2>Lorem ipsum dolor sit amet</h2>
+                <h2>Perfect Matcha</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
-                  ipsum scelerisque volutpat felis, felis consequat viverra.
-                  Ullamcorper a amet, euismod venenatis amet, at ornare sed
-                  phasellus. Sapien, malesuada neque hendrerit semper. Orci duis
-                  laoreet urna aliquam ut et feugiat.
+                  <b>Ingredienser</b>: Jasmine te, Matcha, Melk, Brunsukker,
+                  Tapioca
                 </p>
               </div>
               <svg
@@ -210,13 +204,15 @@ const Home: NextPage = () => {
             {images.map((imgSrc: string, i: number) => {
               return (
                 <div className={styles.image} key={i}>
-                  <Image
-                    src={imgSrc}
-                    alt="A placeholder for images"
-                    width={320}
-                    height={320}
-                    layout="responsive"
-                  />
+                  <a href="https://www.instagram.com/bobajoy.no/">
+                    <Image
+                      src={imgSrc}
+                      alt="A placeholder for images"
+                      width={320}
+                      height={320}
+                      layout="responsive"
+                    />
+                  </a>
                 </div>
               );
             })}
