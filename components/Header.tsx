@@ -40,7 +40,7 @@ const Header = () => {
       <div className="whitespace"></div>
       <div className="icons">
         <a
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/Boba-Joy-Trondheim-105264278675064"
           aria-label="Facebook"
           target="_blank"
           rel="noreferrer"
