@@ -124,7 +124,7 @@ const Footer = () => {
       <div className="footerCreditsWrapper">
         <p>
           © 2021 Alle rettigheter forbeholdt av Boba Joy Bubble Tea & More |
-          Nettside designet av Joiedesign
+          Nettside designet av Jonny Ngo Luong
         </p>
       </div>
     </footer>
