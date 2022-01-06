@@ -36,7 +36,7 @@ const Order: NextPage = () => {
   useEffect(() => {
     Swal.fire({
       icon: 'warning',
-      title: 'Bestillingsskjemaet er foreløpig ute av drift!',
+      html: '<h2>Bestillingsskjemaet er foreløpig ute av drift!</h2>',
       confirmButtonText: 'Se menyen istedet',
       confirmButtonAriaLabel: 'Se menyen',
       confirmButtonColor: '#9cbd32',
