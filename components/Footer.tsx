@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="footerMenuWrapper footerQuickLinks">
-          <h4>Quick Links</h4>
+          <h4>Bobajoy</h4>
           <Link href="/about">
             <a>Om oss</a>
           </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footerMenuWrapper footerOpeningHours">
-          <h4>Opening hours</h4>
+          <h4>Åpningstider</h4>
           <p className="footer_link">
             Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:00
           </p>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="footerMenuWrapper footerContact">
-          <h4>Contacts</h4>
+          <h4>Kontakt oss</h4>
           <a href="mailto:bobajoytrondheim@gmail.com?subject=Website%20Contact">
             <Image
               src="/images/mail.svg"

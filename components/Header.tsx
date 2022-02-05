@@ -30,8 +30,8 @@ const Header = () => {
         <Link href="/menu">
           <a>Meny</a>
         </Link>
-        <Link href="/order">
-          <a>Bestill</a>
+        <Link href="https://bobajoy.rest.winsolution.no/">
+          <a target="_blank">Bestill</a>
         </Link>
         <Link href="/contact">
           <a>Kontakt oss</a>

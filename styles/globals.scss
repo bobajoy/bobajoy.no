@@ -253,6 +253,12 @@ footer {
     font-size: 1rem;
     border-top: 1px solid #a7a7a7;
   }
+  a:hover {
+    color: #164d4d;
+    span {
+      filter: opacity(0.5) drop-shadow(0 0 0 #164d4d);
+    }
+  }
 }
 
 @media (max-width: 900px) {

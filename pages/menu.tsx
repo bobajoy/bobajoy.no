@@ -35,14 +35,15 @@ const Menu: NextPage = () => {
         <div className={styles.section} data-aos="fade-up">
           <div className={styles.menuImageWrapper}>
             <p>
-              <b>Opening hours</b>:<br />
-              Man-Lør: 11:00-20:00
+              <b>Åpningstider:</b>
               <br />
-              Søn: 12:00-19:00
+              Man-Lør: 11:00 - 20:00
+              <br />
+              Søn: 12:00 - 19:00
             </p>
             <Image
               src="/images/meny.png"
-              alt="A placeholder for images"
+              alt="Bobajoy meny"
               width={1920}
               height={1080}
               layout="responsive"
