@@ -42,15 +42,15 @@ const Menu: NextPage = () => {
               Søn: 12:00 - 19:00
             </p>
             <Image
-              src="/images/meny.png"
+              src="/images/meny.jpg"
               alt="Bobajoy meny"
-              width={1920}
-              height={1080}
+              width={893}
+              height={632}
               layout="responsive"
             />
             <div className={styles.buttonWrapper}>
               <a
-                href="/_next/image?url=%2Fimages%2Fmeny.png&w=1080&q=100"
+                href="/_next/image?url=%2Fimages%2Fmeny.jpg&w=1080&q=100"
                 target="_blank"
                 className={`btn ${styles.btn}`}
               >
