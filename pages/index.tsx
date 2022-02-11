@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.scss';
 import logo from '../public/images/logo.png';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import GoogleMap from '../components/GoogleMap';
 
 const Home: NextPage = () => {
   const images = Array(8).fill('/images/placeholder.png');
@@ -245,19 +246,7 @@ const Home: NextPage = () => {
           </svg>
         </div>
         <div className={`${styles.section} ${styles.map}`}>
-          <div className={styles.googleMap}>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1597.7801014434394!2d10.401946419628542!3d63.43326460267982!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e5a4c52f02ce11e!2sHeimdal%20Gull!5e0!3m2!1sen!2sno!4v1639949216519!5m2!1sen!2sno"
-              frameBorder="0"
-              width="100%"
-              height="450"
-              allowFullScreen={false}
-              aria-hidden="false"
-              title="Google Maps"
-              tabIndex={0}
-              loading="lazy"
-            ></iframe>
-          </div>
+          <GoogleMap />
         </div>
       </main>
       <Footer />
