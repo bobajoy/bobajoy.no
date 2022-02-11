@@ -24,6 +24,7 @@ const Home: NextPage = () => {
               <Image
                 src="/images/bear_logo.svg"
                 alt="BobaJoy polarbear logo"
+                priority
                 width={100}
                 height={256}
                 data-aos="fade-in"

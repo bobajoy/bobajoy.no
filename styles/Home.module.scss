@@ -430,6 +430,11 @@
 }
 @media (max-width: 900px) {
   .main {
+    .heroWrapper {
+      .titleWrapper {
+        zoom: 0.85;
+      }
+    }
     .section:not(.galleryWrapper):not(.map) {
       margin-bottom: 40px;
       margin-top: 60px;
