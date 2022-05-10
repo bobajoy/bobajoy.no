@@ -101,7 +101,7 @@ const Footer = () => {
             <p>+47 45380678</p>
           </a>
           <a
-            href="https://goo.gl/maps/vE2HtGAJHgSKxaoV8"
+            href="https://goo.gl/maps/wYErnGy9y3Mr1qMg7"
             target="_blank"
             rel="noreferrer"
           >
