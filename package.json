@@ -16,8 +16,9 @@
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "aos": "^2.3.4",
+    "axios": "^0.27.2",
     "googleapis": "^100.0.0",
-    "next": "12.0.7",
+    "next": "^12.1.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.45.0",

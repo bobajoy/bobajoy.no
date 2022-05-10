@@ -36,4 +36,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-pages/api
+pages/api/googleapi.ts
