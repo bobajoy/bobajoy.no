@@ -45,7 +45,7 @@ const Menu: NextPage = () => {
               Søn: 12:00 - 19:00
             </p>
             <Image
-              src="/images/meny.jpg"
+              src="/images/meny.png"
               alt="Bobajoy meny"
               width={893}
               height={632}
@@ -53,7 +53,7 @@ const Menu: NextPage = () => {
             />
             <div className={styles.buttonWrapper}>
               <a
-                href="/_next/image?url=%2Fimages%2Fmeny.jpg&w=1080&q=100"
+                href="/_next/image?url=%2Fimages%2Fmeny.png&w=1080&q=100"
                 target="_blank"
                 className={`btn ${styles.btn}`}
               >
@@ -75,15 +75,6 @@ const Menu: NextPage = () => {
                 </ul>
               );
             })}
-          </div>
-          <div className={styles.allergiesWrapper}>
-            <div>
-              <span>XXX = Lorem ipsum dolor sit amet.</span>
-              <span>XXX = Lorem ipsum dolor sit.</span>
-              <span>XXX = Lorem ipsum dolor sit amet.</span>
-              <span>XXX = Lorem ipsum dolor sit.</span>
-              <span>XXX = Lorem, ipsum dolor.</span>
-            </div>
           </div>
         </div>
         <Map />
