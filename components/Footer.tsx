@@ -121,7 +121,7 @@ const Footer = () => {
           </a>
         </div>
         <link href="https://awards.infcdn.net/circle_v2.css" rel="stylesheet" />
-        <div id="circle_v2">
+        <div id="circle_v2" style={{ margin: '0 auto 1rem auto' }}>
           <a href="https://restaurantguru.com/Boba-Joy-Trondheim">
             <div className="arc-heading ">
               <svg
