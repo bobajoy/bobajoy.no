@@ -60,7 +60,7 @@ const Footer = () => {
           <Link href="/about">
             <a>Om oss</a>
           </Link>
-          <Link href="/menu">
+          <Link href="https://bobajoy.rest.winsolution.no/">
             <a>Meny</a>
           </Link>
           <Link href="/order">
