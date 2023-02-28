@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               data-aos="fade-in"
               data-aos-delay="280"
             >
-              <Link href="/menu">
+              <Link href="https://bobajoy.rest.winsolution.no/">
                 <a className="btn">Se menyen nå</a>
               </Link>
             </div>

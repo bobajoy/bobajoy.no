@@ -27,7 +27,7 @@ const Header = () => {
         <Link href="/">
           <a>Hjem</a>
         </Link>
-        <Link href="/menu">
+        <Link href="https://bobajoy.rest.winsolution.no/">
           <a>Meny</a>
         </Link>
         <Link href="https://bobajoy.rest.winsolution.no/">
