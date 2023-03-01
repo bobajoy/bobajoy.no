@@ -132,7 +132,7 @@ const Home: NextPage = () => {
           <div>
             <h1 className={styles.title}>Vår meny!</h1>
             <div className={styles.buttonWrapper}>
-              <Link href="/menu">
+              <Link href="https://bobajoy.rest.winsolution.no/">
                 <a className="btn">Se hele menyen her</a>
               </Link>
             </div>
