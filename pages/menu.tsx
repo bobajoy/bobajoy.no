@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Footer from '../components/Footer';
@@ -8,6 +8,7 @@ import styles from '../styles/Menu.module.scss';
 import { items } from '../utilities/items';
 import Map from '../components/Map';
 import Image from 'next/image';
+import Router from 'next/router';
 
 const MenuItem: FC<{ value: Item }> = ({ value }) => {
   return (
@@ -22,7 +23,14 @@ const MenuItem: FC<{ value: Item }> = ({ value }) => {
     </li>
   );
 };
+
 const Menu: NextPage = () => {
+  useEffect(() => {
+    const { pathname } = Router;
+    if (pathname == '/menu') {
+      Router.push('https://bobajoy.rest.winsolution.no/');
+    }
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
@@ -31,11 +39,19 @@ const Menu: NextPage = () => {
           name="description"
           content="Boba Joy bubble tea shop's menu page"
         />
+        <meta
+          httpEquiv="refresh"
+          content="0; url=https://bobajoy.rest.winsolution.no/"
+        />
       </Head>
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Meny" />
-        <div className={styles.section} data-aos="fade-up">
+        <div
+          className={styles.section}
+          data-aos="fade-up"
+          style={{ display: 'hidden' }}
+        >
           <div className={styles.menuImageWrapper}>
             <p>
               <b>Åpningstider:</b>

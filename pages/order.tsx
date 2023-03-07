@@ -34,6 +34,10 @@ const OrderItem: FC<{ value: Item }> = ({ value }) => {
 
 const Order: NextPage = () => {
   useEffect(() => {
+    const { pathname } = Router;
+    if (pathname == '/order') {
+      Router.push('https://bobajoy.rest.winsolution.no/');
+    }
     Swal.fire({
       icon: 'warning',
       html: '<h2>Bestillingsskjemaet er foreløpig ute av drift!</h2>',
@@ -61,11 +65,19 @@ const Order: NextPage = () => {
           name="description"
           content="Boba Joy bubble tea shop's order page"
         />
+        <meta
+          httpEquiv="refresh"
+          content="0; url=https://bobajoy.rest.winsolution.no/"
+        />
       </Head>
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Bestill" />
-        <div className={styles.section} data-aos="fade-up">
+        <div
+          className={styles.section}
+          data-aos="fade-up"
+          style={{ display: 'hidden' }}
+        >
           <div className={styles.orderWrapper}>
             <h1 className={styles.title}>Bestillingsskjema</h1>
             <div className={styles.orderDisplay}>
