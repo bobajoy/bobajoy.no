@@ -28,7 +28,7 @@ const Menu: NextPage = () => {
   useEffect(() => {
     const { pathname } = Router;
     if (pathname == '/menu') {
-      Router.push('https://bobajoy.rest.winsolution.no/');
+      Router.push('https://bobajoy.winorder.no/');
     }
   }, []);
   return (
@@ -41,7 +41,7 @@ const Menu: NextPage = () => {
         />
         <meta
           httpEquiv="refresh"
-          content="0; url=https://bobajoy.rest.winsolution.no/"
+          content="0; url=https://bobajoy.winorder.no/"
         />
       </Head>
       <Header />

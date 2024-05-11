@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               data-aos="fade-in"
               data-aos-delay="280"
             >
-              <Link href="https://bobajoy.rest.winsolution.no/">
+              <Link href="https://bobajoy.winorder.no/">
                 <a className="btn">Se menyen nå</a>
               </Link>
             </div>
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
           <div>
             <h1 className={styles.title}>Vår meny!</h1>
             <div className={styles.buttonWrapper}>
-              <Link href="https://bobajoy.rest.winsolution.no/">
+              <Link href="https://bobajoy.winorder.no/">
                 <a className="btn">Se hele menyen her</a>
               </Link>
             </div>

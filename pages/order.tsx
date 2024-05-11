@@ -36,7 +36,7 @@ const Order: NextPage = () => {
   useEffect(() => {
     const { pathname } = Router;
     if (pathname == '/order') {
-      Router.push('https://bobajoy.rest.winsolution.no/');
+      Router.push('https://bobajoy.winorder.no/');
     }
     Swal.fire({
       icon: 'warning',
@@ -67,7 +67,7 @@ const Order: NextPage = () => {
         />
         <meta
           httpEquiv="refresh"
-          content="0; url=https://bobajoy.rest.winsolution.no/"
+          content="0; url=https://bobajoy.winorder.no/"
         />
       </Head>
       <Header />
