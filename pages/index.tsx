@@ -130,10 +130,10 @@ const Home: NextPage = () => {
           data-aos="zoom-in-up"
         >
           <div>
-            <h1 className={styles.title}>Hele vår meny!</h1>
+            <h1 className={styles.title}>Vår meny!</h1>
             <div className={styles.buttonWrapper}>
               <Link href="https://bobajoy.winorder.no/">
-                <a className="btn">Se hele menyen her</a>
+                <a className="btn">Se hele menyen her!</a>
               </Link>
             </div>
             <div className={styles.bubbles}>
