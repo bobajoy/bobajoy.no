@@ -96,7 +96,7 @@ const Home: NextPage = () => {
               <div>
                 <h2>Vi ønsker deg velkommen til Bobajoy</h2>
                 <p>
-                  Vi er en ny butikk som kom til Trondheim i starten av 2022. Vi
+                  er en ny butikk som kom til Trondheim i starten av 2022. Vi
                   selger bubble tea, fresh iced tea, smoothies, slushes, varme
                   drikker for vinteren, og all slags type asiatiske godsaker. Vi
                   ønsker å bli et komfortabelt og trygt sted for deg...
