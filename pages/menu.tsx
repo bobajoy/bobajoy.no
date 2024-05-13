@@ -58,7 +58,7 @@ const Menu: NextPage = () => {
               <br />
               Man-Lør: 11:00 - 20:00
               <br />
-              Søn: 12:00 - 19:00
+              Søn: 11:00 - 20:00
             </p>
             <Image
               src="/images/meny.png"
