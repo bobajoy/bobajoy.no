@@ -90,7 +90,7 @@ class MyDocument extends Document<DocumentProps> {
                 hasMap:
                   'https://www.google.com/maps/place/Boba+Joy+Trondheim/@63.4330183,10.4032403,15z/data=!4m5!3m4!1s0x0:0xedcafdf0d7714c85!8m2!3d63.4330183!4d10.4032403',
                 openingHours:
-                  'Mo 01:00-01:00 Tu 11:00-20:00 We 11:00-20:00 Th 11:00-20:00 Fr 11:00-20:00 Sa 11:00-20:00 Su 12:00-19:00',
+                  'Mo 01:00-01:00 Tu 11:00-20:00 We 11:00-20:00 Th 11:00-20:00 Fr 11:00-20:00 Sa 11:00-20:00 Su 11:00-20:00',
                 telephone: '45380678',
               }),
             }}
