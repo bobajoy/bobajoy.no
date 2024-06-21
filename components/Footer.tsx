@@ -121,7 +121,7 @@ const Footer = () => {
           </a>
         </div>
         <link href="https://awards.infcdn.net/2024/circle_v2.css" rel="stylesheet" />
-        <div id="circle_v2" style={{ margin: '0 auto 1rem auto' }}>
+        <div id="circle-r-ribbon" style={{ margin: '0 auto 1rem auto' }}>
           <a href="https://restaurantguru.com/Boba-Joy-Trondheim">
             <div className="arc-heading ">
               <svg
@@ -135,7 +135,7 @@ const Footer = () => {
                   <path id="heading-arc" d="M 30 80 a 50 50 0 1 1 100 0"></path>
                 </defs>
                 <text
-                  className="arc-heading__heading "
+                  className="r-ribbon_ahead-heading "
                   fill="#000"
                   textAnchor="middle"
                 >
@@ -145,16 +145,16 @@ const Footer = () => {
                 </text>
               </svg>
             </div>
-            <div className="sq_year">2024</div>
+            <div className="r-ribbon_year">2024</div>
             <a
               href="https://restaurantguru.com/Boba-Joy-Trondheim"
-              className="sq_center "
+              className="r-ribbon_title f14"
               target="_blank"
               rel="noreferrer"
             >
               Boba Joy
             </a>
-            <div className="arc-heading arc-heading__bottom">
+            <div className="r-ribbon_ahead r-ribbon_ahead-bottom">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -169,7 +169,7 @@ const Footer = () => {
                   ></path>
                 </defs>
                 <text
-                  className="arc-heading__subheading"
+                  className="r-ribbon_ahead-subh"
                   fill="#000"
                   textAnchor="middle"
                 >
