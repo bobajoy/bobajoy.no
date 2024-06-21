@@ -118,11 +118,12 @@ const Home: NextPage = () => {
               <h2>Del dine bobler sammen med oss!</h2>
               <p>#bobajoyno</p>
               <p>#bobajoy.no</p>
+              <p>#bobajoytrondheim</p>
             </div>
           </div>
         </div>
         <div className={`${styles.section} ${styles.selectionWrapper}`}>
-          <h1 className={styles.title}>Oppdateringer</h1>
+          <h1 className={styles.title}>📸 Tag oss + Følg oss og bli med i trekningen</h1>
           <Posts />
         </div>
         <div
