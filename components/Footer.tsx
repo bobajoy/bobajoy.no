@@ -73,7 +73,7 @@ const Footer = () => {
         <div className="footerMenuWrapper footerOpeningHours">
           <h4>Åpningstider</h4>
           <p className="footer_link">
-            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:00
+            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 10:30 - 20:30
           </p>
           <p className="footer_link">
             Søn &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:00
@@ -120,7 +120,7 @@ const Footer = () => {
             </address>
           </a>
         </div>
-        <link href="https://awards.infcdn.net/circle_v2.css" rel="stylesheet" />
+        <link href="https://awards.infcdn.net/2024/circle_v2.css" rel="stylesheet" />
         <div id="circle_v2" style={{ margin: '0 auto 1rem auto' }}>
           <a href="https://restaurantguru.com/Boba-Joy-Trondheim">
             <div className="arc-heading ">
@@ -145,7 +145,7 @@ const Footer = () => {
                 </text>
               </svg>
             </div>
-            <div className="sq_year">2022</div>
+            <div className="sq_year">2024</div>
             <a
               href="https://restaurantguru.com/Boba-Joy-Trondheim"
               className="sq_center "
