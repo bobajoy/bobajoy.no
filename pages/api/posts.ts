@@ -21,6 +21,23 @@ export default function handler(_req: any, res: any) {
 Get ready to taste the rainbow! Purchase any large drink and receive a special surprise gift with a chance to win fantastic prizes in our lucky draw.`,
     },
     {
+      img: 'https://lh3.googleusercontent.com/p/AF1QipPZkUV0RCQVEhi-TyB1kkOafsymO_65SxLd1mCS=s680-w680-h510',
+      date: new Date('2022-03-01T11:30:32.601Z'),
+      content: `🎉 GIVEAWAY ALERT! 🎉
+      🌸✨ Celebrate Women's Day with a Sip of Joy at Boba Joy! 🎉💖
+
+Honoring incredible women, join our special giveaway! 🌷🥤
+
+🎁 Prize: A surprise gift awaits!`,
+    },
+    {
+      img: 'https://lh3.googleusercontent.com/p/AF1QipNfHoaQ4e3iMpXqCMZst0IHQebug099fljNY4FY=s680-w680-h510',
+      date: new Date('2022-03-01T11:30:32.601Z'),
+      content: `🎉🥳 𝓑𝓾𝓫𝓫𝓵𝓮 𝓣𝓮𝓪 𝓢𝓱𝓸𝓹 2-𝓨𝓮𝓪𝓻 𝓑𝓲𝓻𝓽𝓱𝓭𝓪𝔂 𝓖𝓲𝓿𝓮𝓪𝔀𝓪𝔂!🥳🎉
+      To express our gratitude, we’re thrilled to announce a special 2-𝓨𝓮𝓪𝓻 𝓑𝓲𝓻𝓽𝓱𝓭𝓪𝔂 𝓖𝓲𝓿𝓮𝓪𝔀𝓪𝔂!🎁🥳. 
+      We want to celebrate with YOU, the amazing community that has made our bubble tea shop a second home.`,
+    },
+    {
       img: 'https://lh3.googleusercontent.com/p/AF1QipPZuzZAbDuPQzJyQBTMq4VP1e0BrOcbAbTK4NLQ=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
       content:
