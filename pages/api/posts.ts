@@ -16,9 +16,6 @@ export default function handler(_req: any, res: any) {
       content: `Join us for a vibrant Rainbow Party at Boba Bliss!
 
 🌈 Where: Boba Bliss Trondheim
-📅 When: Thursday and Friday
-🕓 Time: 4:00 PM to 8:00 PM
-
 Get ready to taste the rainbow! Purchase any large drink and receive a special surprise gift with a chance to win fantastic prizes in our lucky draw.`,
     },
     {
