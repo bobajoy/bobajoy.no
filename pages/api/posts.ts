@@ -20,12 +20,9 @@ export default function handler(_req: any, res: any) {
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipPZkUV0RCQVEhi-TyB1kkOafsymO_65SxLd1mCS=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
-      content: `🎉 GIVEAWAY ALERT! 🎉
-      🌸✨ Celebrate Women's Day with a Sip of Joy at Boba Joy! 🎉💖
-
-Honoring incredible women, join our special giveaway! 🌷🥤
-
-🎁 Prize: A surprise gift awaits!`,
+      content: `🌸✨ 𝓒𝓮𝓵𝓮𝓫𝓻𝓪𝓽𝓮 𝓦𝓸𝓶𝓮𝓷'𝓼 𝓓𝓪𝔂 𝔀𝓲𝓽𝓱 𝓪 𝓢𝓲𝓹 𝓸𝓯 𝓙𝓸𝔂 𝓪𝓽 𝓑𝓸𝓫𝓪 𝓙𝓸𝔂! 🎉💖
+                Honoring incredible women, join our special giveaway! 🌷🥤
+                🎁 Prize: A surprise gift awaits!`,
     },
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipNfHoaQ4e3iMpXqCMZst0IHQebug099fljNY4FY=s680-w680-h510',
@@ -38,11 +35,13 @@ Honoring incredible women, join our special giveaway! 🌷🥤
       img: 'https://lh3.googleusercontent.com/p/AF1QipPZuzZAbDuPQzJyQBTMq4VP1e0BrOcbAbTK4NLQ=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
       content:
-        `🎉 GIVEAWAY ALERT! 🎉
+        `🎉 𝓖𝓘𝓥𝓔𝓐𝓦𝓐𝓨 𝓐𝓛𝓔𝓡𝓣! 🎉
 
-Celebrating 1000 Followers on Instagram! 🌟
+        Celebrating 1000 Followers on Instagram! 🌟
 
-Join our exciting giveaway to celebrate reaching 1000 followers on Instagram! 🥳 Purchase a LARGE-sized bubble tea to get a special ticket for our lucky draw and a chance to win amazing prizes! 🎉 Don't miss out!`,
+        Join our exciting giveaway to celebrate reaching 1000 followers on Instagram! 🥳 
+        
+        Purchase a LARGE-sized bubble tea to get a special ticket for our lucky draw and a chance to win amazing prizes! 🎉 Don't miss out!`,
     },
   ]);
 }
