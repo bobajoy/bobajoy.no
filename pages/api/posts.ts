@@ -4,13 +4,13 @@ export default function handler(_req: any, res: any) {
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipP1X9w0PVeWzZ3iGtIcr0Pt8TT66rPQ82YNHAEE=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
-      content: `🎉🥤 Double the Tea, Double the Love🥤🎉
+      content: `
+      <h2>🎉🥤 Double the Tea, Double the Love🥤🎉</h2>
 
-Share the love with our free tea giveaway!
-We're giving away FREE Bubble Tea for you and a friend! 👫✨
+      <p>Share the love with our free tea giveaway!</p>
+      <p>We're giving away FREE Bubble Tea for you and a friend! 👫✨</p>
 
-Follow us @BobaJoy on Instagram. 
-Good luck! When you win, come to Boba Joy with your friend to receive your 2 cups of tea! 🍃✨`,
+      <p>Follow us @BobaJoy on Instagram. Good luck! When you win, come to Boba Joy with your friend to receive your 2 cups of tea! 🍃✨</p>`,
     },
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipN3csXPB2mWf41XVrtRbSfcIu4FpJmZjtejd7fv=s680-w680-h510',
