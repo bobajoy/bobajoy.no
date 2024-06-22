@@ -13,14 +13,10 @@ const Home: NextPage = () => {
   const images = [
     // '/images/placeholder.png',
     'https://lh3.googleusercontent.com/p/AF1QipPHoWh5tI1dPtjueBNytk9QnM3o6dqPx06HJm3U=s680-w680-h510',
-    'https://lh5.googleusercontent.com/p/AF1QipM7abq5o9tQSKgYAGaZaB3_JSo11TiB3vXy-2Eq=s541-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipNQPXKN9f9yvllkKBaZwylVI_ehNKBtRg-0ogu_=s452-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipPgOTK-LUBrVQgldXkdA9nAFqZqJGZ9j0rpl93Q=s1004-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipMJOc5fdB1o2lzrjFoGM6Sc8LSs8si9SBzOBmga=s1338-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipNqmOPEePj-H618PRSpqhJSdXvh170bIXAh88nt=s452-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipM9f9fZmuxslsapSI6W1Q0pY6Sikeh2sFhkuchc=s452-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipNdaO1VmGgbF8VPj8PsUzlSGpQ-740r8LYfrQ3k=s452-k-no',
-    'https://lh5.googleusercontent.com/p/AF1QipOeo7eL8hAmTnhth9hZIW4a-PrRGhfhAex31JZo=s452-k-no',
+    'https://lh3.googleusercontent.com/p/AF1QipMSYh_QFbAS803Qlp1cbxp2-Ps_CHxL7xNUGzyI=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipNpMRPey73uRcDYp0NfjrzeDsPWS--gUb50TQX5=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipNCDNEhUhe8DLvK0Bnkfq7Twomuu4Y2Fac9gu6U=s680-w680-h510',
+    
   ];
 
   return (
