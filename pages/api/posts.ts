@@ -14,7 +14,7 @@ export default function handler(_req: any, res: any) {
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipN3csXPB2mWf41XVrtRbSfcIu4FpJmZjtejd7fv=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
-      content: `🎉 GIVEAWAY ALERT! 🎉
+      content: `🎉 GIVEAWAY ALERT! 🎉🌟
       Join us for a vibrant Rainbow Party at Boba Bliss!
 
 🌈 Where: Boba Bliss Trondheim
@@ -26,7 +26,7 @@ Get ready to taste the rainbow! Purchase any large drink and receive a special s
       content:
         `🎉 GIVEAWAY ALERT! 🎉
 
-🌟 Celebrating 1000 Followers on Instagram! 🌟
+Celebrating 1000 Followers on Instagram! 🌟
 
 Join our exciting giveaway to celebrate reaching 1000 followers on Instagram! 🥳 Purchase a LARGE-sized bubble tea to get a special ticket for our lucky draw and a chance to win amazing prizes! 🎉 Don't miss out!`,
     },
