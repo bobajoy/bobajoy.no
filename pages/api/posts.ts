@@ -41,7 +41,7 @@ export default function handler(_req: any, res: any) {
 
         Join our exciting giveaway to celebrate reaching 1000 followers on Instagram! 🥳 
         
-        Purchase a LARGE-sized bubble tea to get a special ticket for our lucky draw and a chance to win amazing prizes! 🎉 Don't miss out!`,
+        Purchase a LARGE-sized bubble tea to get a special ticket for our lucky draw and a chance to win prizes! 🎉`,
     },
   ]);
 }
