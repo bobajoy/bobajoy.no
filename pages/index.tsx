@@ -13,10 +13,14 @@ const Home: NextPage = () => {
   const images = [
     // '/images/placeholder.png',
     'https://lh3.googleusercontent.com/p/AF1QipPHoWh5tI1dPtjueBNytk9QnM3o6dqPx06HJm3U=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipPcvrjpKQeA7WNTTvn81SxZwoTBWmZb7F8AHmN_=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipPkpfSY__hBINNv9YBrgltvFQtVSEaOuxXjQO0B=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipOPImf0VtxIZCMcF0HhZKBCv-17UDgU4Kr17hJF=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipMSYh_QFbAS803Qlp1cbxp2-Ps_CHxL7xNUGzyI=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipNpMRPey73uRcDYp0NfjrzeDsPWS--gUb50TQX5=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipNCDNEhUhe8DLvK0Bnkfq7Twomuu4Y2Fac9gu6U=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipPBTWNH4SLIWlghp-iZBmGhW0nJd0lgBeQkZ2yk=s680-w680-h510',
+
     
   ];
 
