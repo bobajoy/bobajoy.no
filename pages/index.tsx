@@ -24,7 +24,6 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipOrB1FaSKe4LPD2We0EtVz5N5--qQES8HemvlXW=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipOENb3dtvWYkU7r-J41iUdtVdO7SrjU2InFymY5=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPRSvJrnhSbNvsKoRkQd7Q6-kGBPGWTqtXByUpj=s680-w680-h510',
-    ''
     'https://lh3.googleusercontent.com/p/AF1QipOf-nUtUhnzgsyiFQuQRiodRmAe5guIBQUFpkRJ=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPBTWNH4SLIWlghp-iZBmGhW0nJd0lgBeQkZ2yk=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPTVHGCzI66w0ZWvBzVfdNXSeYAUrbfSsQX6vNP=s680-w680-h510',
