@@ -2,20 +2,20 @@
 export default function handler(_req: any, res: any) {
   res.status(200).json([
     {
-      img: 'https://lh3.googleusercontent.com/geougc/AF1QipOh91_EkMgrl3MAISoKhWUFRioOG35j74Ekn6ve=h305-no',
+      img: 'https://lh3.googleusercontent.com/p/AF1QipP1X9w0PVeWzZ3iGtIcr0Pt8TT66rPQ82YNHAEE=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
-      content: `Introducing Our Refreshing Summer Sensation: Dive into the Cool Bliss of Bubble Tea! 🌞🥤
+      content: '🎉🥤 Double the Tea, Double the Love! 🥤🎉
 
-        Embark on a journey of tantalizing taste with our newest summer creation at Boba Joy Trondheim! Escape the heat and indulge in our handcrafted, icy-cool bubble teas, perfectly crafted to quench your thirst and elevate your summer vibes.
-        
-        Made with the finest ingredients and bursting with flavor, our summer specials promise a delightful sip in every bubble. Whether you crave the fruity burst of mango, the creamy richness of coconut, or the exotic allure of lychee, we have a tantalizing flavor for every palate.
-        
-        Beat the heat and sip on sunshine with our limited-time summer menu. Visit us today and treat yourself to the ultimate summer refreshment!
-        
-        🌟 Try our new summer sensations today!
-        📍 Olav Tryggvasons gt. 1, 7011 Trondheim, Norway
-        📱 Follow us on Instagram and Facebook: @bobajoy.no / @bobajoytrondheim
-        #SummerSips #BubbleTeaBliss #RefreshingBeverages`,
+Share the love with our free tea giveaway! Ready to enjoy some bubble love with your bestie? We're giving away FREE Bubble Tea for you and a friend! 👫✨
+
+Here's how to join:
+
+Follow us @BobaJoy
+Like this post ❤️
+Tag your bestie and comment a number between 11-99 👇
+Winners will be announced next Friday! Good luck! When you win, come to Boba Joy with your friend to receive your 2 cups of tea! 🍃✨
+
+#BobaJoy #ShareTheLove #BubbleTeaGiveaway',
     },
     {
       img: 'https://lh3.googleusercontent.com/geougc/AF1QipN7pDc7noCDrzj2sLnlxzc9Pzl_w69M52uRQ3lN=h305-no',
