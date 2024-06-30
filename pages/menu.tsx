@@ -44,15 +44,7 @@ const Menu: NextPage = () => {
           content="0; url=https://bobajoy.winorder.no/"
         />
       </Head>
-      <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-JG4347Y81L"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-JG4347Y81L');
-            </script>
+      
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Meny" />
