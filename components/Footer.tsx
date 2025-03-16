@@ -73,7 +73,7 @@ const Footer = () => {
         <div className="footerMenuWrapper footerOpeningHours">
           <h4>Åpningstider</h4>
           <p className="footer_link">
-            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp;11:00 - 20:30
+            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:30
           </p>
           <p className="footer_link">
             Søn &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:00
@@ -145,7 +145,7 @@ const Footer = () => {
                 </text>
               </svg>
             </div>
-            <div className="r-ribbon_year">2024</div>
+            <div className="r-ribbon_yea2025</div>
             <a
               href="https://restaurantguru.com/Boba-Joy-Trondheim"
               className="r-ribbon_title f14"
