@@ -145,7 +145,7 @@ const Footer = () => {
                 </text>
               </svg>
             </div>
-            <div className="r-ribbon_yea2025</div>
+            <div className="r-ribbon_year">2025</div>
             <a
               href="https://restaurantguru.com/Boba-Joy-Trondheim"
               className="r-ribbon_title f14"
