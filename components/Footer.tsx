@@ -91,14 +91,14 @@ const Footer = () => {
             />
             <p>bobajoytrondheim@gmail.com</p>
           </a>
-          <a href="tel:+4745818200">
+          <a href="tel:+47 483 86 229">
             <Image
               src="/images/phone.svg"
               width={iconSize}
               height={iconSize}
               alt="phoneIcon"
             />
-            <p>+47 48 38 62 29</p>
+            <p>+47 483 86 229</p>
           </a>
           <a
             href="https://goo.gl/maps/wYErnGy9y3Mr1qMg7"
