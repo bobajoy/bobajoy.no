@@ -4,7 +4,7 @@ export default function handler(_req: any, res: any) {
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipP1X9w0PVeWzZ3iGtIcr0Pt8TT66rPQ82YNHAEE=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
-      content: `𝒟💞𝒰𝐵𝐿𝐸 𝒯𝐻𝐸 𝒯𝐸𝒜, 𝒟💞𝒰𝐵𝐿𝐸 𝒯𝐻𝐸 𝐿𝒪𝒱𝐸.
+      content: `𝓓💞𝓾𝓫𝓵𝓮 𝓽𝓱𝓮 𝓽𝓮𝓪, 𝓓💞𝓾𝓫𝓵𝓮 𝓽𝓱𝓮 𝓵𝓸𝓿𝓮.
         Share the love with our free tea giveaway!
         We're giving away FREE Bubble Tea for you and a friend! 👫✨
         Follow us @bobajoy.no on Instagram.
@@ -13,7 +13,7 @@ export default function handler(_req: any, res: any) {
     {
       img: 'https://lh3.googleusercontent.com/p/AF1QipN3csXPB2mWf41XVrtRbSfcIu4FpJmZjtejd7fv=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
-      content: `🎀 𝒥𝒪𝐼𝒩 𝒰𝒮 𝐹𝒪𝑅 𝒜 𝒱𝐼𝐵𝑅𝒜𝒩𝒯 𝑅𝒜𝐼𝒩𝐵💮𝒲 𝒫𝒜𝑅𝒯𝒴❢ 🎀
+      content: `🎀 𝓙𝓸𝓲𝓷 𝓾𝓼 𝓯𝓸𝓻 𝓪 𝓿𝓲𝓫𝓻𝓪𝓷𝓽 𝓻𝓪𝓲𝓷𝓫💮𝔀 𝓹𝓪𝓻𝓽𝔂❢ 🎀
               🌈 Where: Boba JOY Trondheim
               Get ready to taste the rainbow! Purchase any large drink and receive a special surprise gift with a chance to win fantastic prizes in our lucky draw.`,
     },

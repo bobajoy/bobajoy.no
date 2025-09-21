@@ -15,7 +15,6 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipPHoWh5tI1dPtjueBNytk9QnM3o6dqPx06HJm3U=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPcvrjpKQeA7WNTTvn81SxZwoTBWmZb7F8AHmN_=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPkpfSY__hBINNv9YBrgltvFQtVSEaOuxXjQO0B=s680-w680-h510',
-    'https://lh3.googleusercontent.com/p/AF1QipOPImf0VtxIZCMcF0HhZKBCv-17UDgU4Kr17hJF=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipOGV4qkle3HxApN8RVNmAAChqtbGIQdzDhRxaU0=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipMSYh_QFbAS803Qlp1cbxp2-Ps_CHxL7xNUGzyI=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipNpMRPey73uRcDYp0NfjrzeDsPWS--gUb50TQX5=s680-w680-h510',
@@ -27,6 +26,8 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipOf-nUtUhnzgsyiFQuQRiodRmAe5guIBQUFpkRJ=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPBTWNH4SLIWlghp-iZBmGhW0nJd0lgBeQkZ2yk=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPTVHGCzI66w0ZWvBzVfdNXSeYAUrbfSsQX6vNP=s680-w680-h510',
+    'https://scontent.fosl1-1.fna.fbcdn.net/v/t39.30808-6/520467508_769414365645461_6145522874264434003_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1Pxx2jmxvt8Q7kNvwHmQTsN&_nc_oc=AdnTFehCLzZwrOtNjQfOVaOLJwGA_6ycrJyEpsj_zTpaAoS2kPdypMJMI3qJB5LXMjY&_nc_zt=23&_nc_ht=scontent.fosl1-1.fna&_nc_gid=qDCv5n5LR_0_gOW5LS2HxQ&oh=00_AfZTkI9Tyl028MgfAoOYWR4yvtb2cmtNqsTqSHE59AswxQ&oe=68D5F5AE',
+    
 
     
   ];
