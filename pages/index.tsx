@@ -26,10 +26,7 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipOf-nUtUhnzgsyiFQuQRiodRmAe5guIBQUFpkRJ=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPBTWNH4SLIWlghp-iZBmGhW0nJd0lgBeQkZ2yk=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPTVHGCzI66w0ZWvBzVfdNXSeYAUrbfSsQX6vNP=s680-w680-h510',
-    'https://scontent.fosl1-1.fna.fbcdn.net/v/t39.30808-6/520467508_769414365645461_6145522874264434003_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1Pxx2jmxvt8Q7kNvwHmQTsN&_nc_oc=AdnTFehCLzZwrOtNjQfOVaOLJwGA_6ycrJyEpsj_zTpaAoS2kPdypMJMI3qJB5LXMjY&_nc_zt=23&_nc_ht=scontent.fosl1-1.fna&_nc_gid=qDCv5n5LR_0_gOW5LS2HxQ&oh=00_AfZTkI9Tyl028MgfAoOYWR4yvtb2cmtNqsTqSHE59AswxQ&oe=68D5F5AE',
-    
-
-    
+     
   ];
 
   return (
