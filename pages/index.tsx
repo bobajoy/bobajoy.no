@@ -15,6 +15,7 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipPHoWh5tI1dPtjueBNytk9QnM3o6dqPx06HJm3U=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPcvrjpKQeA7WNTTvn81SxZwoTBWmZb7F8AHmN_=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPkpfSY__hBINNv9YBrgltvFQtVSEaOuxXjQO0B=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipO98oeZ2beX_xl6yvwPgfKxKfAh443-QLyHbBel=s1360-w1360-h1020-rw',
     'https://lh3.googleusercontent.com/p/AF1QipOGV4qkle3HxApN8RVNmAAChqtbGIQdzDhRxaU0=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipMSYh_QFbAS803Qlp1cbxp2-Ps_CHxL7xNUGzyI=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipNpMRPey73uRcDYp0NfjrzeDsPWS--gUb50TQX5=s680-w680-h510',
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipOf-nUtUhnzgsyiFQuQRiodRmAe5guIBQUFpkRJ=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPBTWNH4SLIWlghp-iZBmGhW0nJd0lgBeQkZ2yk=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPTVHGCzI66w0ZWvBzVfdNXSeYAUrbfSsQX6vNP=s680-w680-h510',
+    'https://lh3.googleusercontent.com/p/AF1QipNvkHyEojMKnPErJXyyO4RiHuuev7NdryoimIhp=s1360-w1360-h1020-rw',
      
   ];
 
