@@ -2,6 +2,16 @@
 export default function handler(_req: any, res: any) {
   res.status(200).json([
     {
+      img: 'https://lh3.googleusercontent.com/p/AF1QipPfbKKYAlUDVsPPqjB7YFHRmw7MdnWXE29ZyVfK=s1360-w1360-h1020-rw',
+      date: new Date('2022-03-01T11:30:32.601Z'),
+      content:
+        `🌟 𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓒𝓸𝓶𝓫𝓸 𝓓𝓮𝓪𝓵! 🌟
+
+        🍹 Sip in Style with Our Eco Combo Deal! 🍹
+
+        Enjoy your favorite large bubble tea AND take home our trendy Ecology Bubble Straw for only kr 119,- (originally kr 149,-)!`,
+    },
+    {
       img: 'https://lh3.googleusercontent.com/p/AF1QipP1X9w0PVeWzZ3iGtIcr0Pt8TT66rPQ82YNHAEE=s680-w680-h510',
       date: new Date('2022-03-01T11:30:32.601Z'),
       content: `𝓓💞𝓾𝓫𝓵𝓮 𝓽𝓱𝓮 𝓽𝓮𝓪, 𝓓💞𝓾𝓫𝓵𝓮 𝓽𝓱𝓮 𝓵𝓸𝓿𝓮.
@@ -42,16 +52,6 @@ export default function handler(_req: any, res: any) {
         Join our exciting giveaway to celebrate reaching 1000 followers on Instagram! 🥳 
         
         Purchase a LARGE-sized bubble tea to get a special ticket for our lucky draw and a chance to win prizes!`,
-    },
-    {
-      img: 'https://lh3.googleusercontent.com/p/AF1QipPfbKKYAlUDVsPPqjB7YFHRmw7MdnWXE29ZyVfK=s1360-w1360-h1020-rw',
-      date: new Date('2022-03-01T11:30:32.601Z'),
-      content:
-        `🌟 𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓒𝓸𝓶𝓫𝓸 𝓓𝓮𝓪𝓵! 🌟
-
-        🍹 Sip in Style with Our Eco Combo Deal! 🍹
-
-        Enjoy your favorite large bubble tea AND take home our trendy Ecology Bubble Straw for only kr 119,- (originally kr 149,-)!`
     },
   ]);
 }
