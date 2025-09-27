@@ -51,13 +51,7 @@ export default function handler(_req: any, res: any) {
 
         🍹 Sip in Style with Our Eco Combo Deal! 🍹
 
-        Enjoy your favorite large bubble tea AND take home our trendy Ecology Bubble Straw for only kr 119,- (originally kr 149,-)!
-
-        🌱 Why You'll Love It:
-
-        ✔️Eco-Friendly: Reduce plastic waste with our reusable bubble straw.
-        ✔️Perfect Pairing: The large drink will quench your thirst in the most delicious way.
-        ✔️Great Savings: Save kr 30 on this exclusive combo!`
+        Enjoy your favorite large bubble tea AND take home our trendy Ecology Bubble Straw for only kr 119,- (originally kr 149,-)!`
     },
   ]);
 }
