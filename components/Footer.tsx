@@ -73,10 +73,10 @@ const Footer = () => {
         <div className="footerMenuWrapper footerOpeningHours">
           <h4>Åpningstider</h4>
           <p className="footer_link">
-            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 12:00 - 20:30
+            Man - Lør &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:30
           </p>
           <p className="footer_link">
-            Søn &nbsp;&nbsp;&nbsp;&nbsp; 12:00 - 20:00
+            Søn &nbsp;&nbsp;&nbsp;&nbsp; 11:00 - 20:00
           </p>
         </div>
 
