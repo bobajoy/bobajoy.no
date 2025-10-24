@@ -98,7 +98,7 @@ const Footer = () => {
               height={iconSize}
               alt="phoneIcon"
             />
-            <p>+47 483 86 229</p>
+            <p>+47 45 818 200</p>
           </a>
           <a
             href="https://goo.gl/maps/wYErnGy9y3Mr1qMg7"
