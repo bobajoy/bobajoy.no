@@ -1,7 +1,7 @@
 import { FC, useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from '../styles/Posts.module.scss';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 interface IPost {
   img: string;

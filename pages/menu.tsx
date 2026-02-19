@@ -7,7 +7,7 @@ import SmallPageHeader from '../components/SmallPageHeader';
 import styles from '../styles/Menu.module.scss';
 import { items } from '../utilities/items';
 import Map from '../components/Map';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Router from 'next/router';
 
 const MenuItem: FC<{ value: Item }> = ({ value }) => {
@@ -44,7 +44,7 @@ const Menu: NextPage = () => {
           content="0; url=https://bobajoy.winorder.no/"
         />
       </Head>
-      
+
       <Header />
       <main className={styles.main}>
         <SmallPageHeader title="Meny" />

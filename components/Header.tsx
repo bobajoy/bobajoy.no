@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Link from 'next/link';
 import logo from '../public/images/logo.png';
 
@@ -18,24 +18,16 @@ const Header = () => {
   );
   return (
     <header className={`navigation ${hideOnScroll ? 'hidden' : ''}`}>
-      <Link href="/">
-        <a className="logoWrapper">
-          <Image src={logo} alt="BobaJoy logo" width={240} height={42} />
-        </a>
+      <Link href="/" className="logoWrapper">
+        <Image src={logo} alt="BobaJoy logo" width={240} height={42} />
       </Link>
       <nav className={`${hideMobileNav ? 'hidden' : ''}`}>
-        <Link href="/">
-          <a>Hjem</a>
+        <Link href="/">Hjem</Link>
+        <Link href="https://bobajoy.winorder.no/">Meny</Link>
+        <Link href="https://bobajoy.winorder.no/" target="_blank">
+          Bestill
         </Link>
-        <Link href="https://bobajoy.winorder.no/">
-          <a>Meny</a>
-        </Link>
-        <Link href="https://bobajoy.winorder.no/">
-          <a target="_blank">Bestill</a>
-        </Link>
-        <Link href="/contact">
-          <a>Kontakt oss</a>
-        </Link>
+        <Link href="/contact">Kontakt oss</Link>
       </nav>
       <div className="whitespace"></div>
       <div className="icons">

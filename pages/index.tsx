@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.scss';
@@ -28,7 +28,6 @@ const Home: NextPage = () => {
     'https://lh3.googleusercontent.com/p/AF1QipPBTWNH4SLIWlghp-iZBmGhW0nJd0lgBeQkZ2yk=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipPTVHGCzI66w0ZWvBzVfdNXSeYAUrbfSsQX6vNP=s680-w680-h510',
     'https://lh3.googleusercontent.com/p/AF1QipNvkHyEojMKnPErJXyyO4RiHuuev7NdryoimIhp=s1360-w1360-h1020-rw',
-     
   ];
 
   return (
@@ -67,8 +66,8 @@ const Home: NextPage = () => {
               data-aos="fade-in"
               data-aos-delay="280"
             >
-              <Link href="https://bobajoy.winorder.no/">
-                <a className="btn">Se menyen nå</a>
+              <Link href="https://bobajoy.winorder.no/" className="btn">
+                Se menyen nå
               </Link>
             </div>
           </div>
@@ -112,8 +111,8 @@ const Home: NextPage = () => {
                 </p>
               </div>
               <div className={styles.buttonWrapper}>
-                <Link href="/about">
-                  <a className="btn">Les mer om oss</a>
+                <Link href="/about" className="btn">
+                  Les mer om oss
                 </Link>
               </div>
             </div>
@@ -132,7 +131,9 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className={`${styles.section} ${styles.selectionWrapper}`}>
-          <h1 className={styles.title}>📸 Tag oss + Følg oss og bli med i trekningen</h1>
+          <h1 className={styles.title}>
+            📸 Tag oss + Følg oss og bli med i trekningen
+          </h1>
           <Posts />
         </div>
         <div
@@ -142,8 +143,8 @@ const Home: NextPage = () => {
           <div>
             <h1 className={styles.title}>Vår meny!</h1>
             <div className={styles.buttonWrapper}>
-              <Link href="https://bobajoy.winorder.no/">
-                <a className="btn">Se hele menyen her!</a>
+              <Link href="https://bobajoy.winorder.no/" className="btn">
+                Se hele menyen her!
               </Link>
             </div>
             <div className={styles.bubbles}>

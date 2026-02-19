@@ -2,7 +2,7 @@ import { FC, useEffect } from 'react';
 import type { NextPage } from 'next';
 import Router from 'next/router';
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import styles from '../styles/Order.module.scss';

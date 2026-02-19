@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Link from 'next/link';
 import colorLogo from '../public/images/color_logo.png';
 
@@ -57,18 +57,10 @@ const Footer = () => {
 
         <div className="footerMenuWrapper footerQuickLinks">
           <h4>Bobajoy</h4>
-          <Link href="/about">
-            <a>Om oss</a>
-          </Link>
-          <Link href="https://bobajoy.winorder.no/">
-            <a>Meny</a>
-          </Link>
-          <Link href="https://bobajoy.winorder.no/">
-            <a>Bestill</a>
-          </Link>
-          <Link href="/contact">
-            <a>Contact us</a>
-          </Link>
+          <Link href="/about">Om oss</Link>
+          <Link href="https://bobajoy.winorder.no/">Meny</Link>
+          <Link href="https://bobajoy.winorder.no/">Bestill</Link>
+          <Link href="/contact">Contact us</Link>
         </div>
         <div className="footerMenuWrapper footerOpeningHours">
           <h4>Åpningstider</h4>
@@ -120,72 +112,72 @@ const Footer = () => {
             </address>
           </a>
         </div>
-        <link href="https://awards.infcdn.net/2024/circle_v2.css" rel="stylesheet" />
+        <link
+          href="https://awards.infcdn.net/2024/circle_v2.css"
+          rel="stylesheet"
+        />
         <div id="circle-r-ribbon" style={{ margin: '0 auto 1rem auto' }}>
-          <a href="https://restaurantguru.com/Boba-Joy-Trondheim">
-            <div className="arc-heading ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                width="160px"
-                height="160px"
-                viewBox="0 0 160 160"
-              >
-                <defs>
-                  <path id="heading-arc" d="M 30 80 a 50 50 0 1 1 100 0"></path>
-                </defs>
-                <text
-                  className="r-ribbon_ahead-heading "
-                  fill="#000"
-                  textAnchor="middle"
-                >
-                  <textPath startOffset="50%" xlinkHref="#heading-arc">
-                    Recommended
-                  </textPath>
-                </text>
-              </svg>
-            </div>
-            <div className="r-ribbon_year">2025</div>
-            <a
-              href="https://restaurantguru.com/Boba-Joy-Trondheim"
-              className="r-ribbon_title f14"
-              target="_blank"
-              rel="noreferrer"
+          {/* <a href="https://restaurantguru.com/Boba-Joy-Trondheim"> */}
+          <div className="arc-heading ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              width="160px"
+              height="160px"
+              viewBox="0 0 160 160"
             >
-              Boba Joy
-            </a>
-            <div className="r-ribbon_ahead r-ribbon_ahead-bottom">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                width="120px"
-                height="120px"
-                viewBox="0 0 120 120"
+              <defs>
+                <path id="heading-arc" d="M 30 80 a 50 50 0 1 1 100 0"></path>
+              </defs>
+              <text
+                className="r-ribbon_ahead-heading "
+                fill="#000"
+                textAnchor="middle"
               >
-                <defs>
-                  <path
-                    id="subheading-arc"
-                    d="M 12 60 a 48 48 0 0 0 96 0"
-                  ></path>
-                </defs>
-                <text
-                  className="r-ribbon_ahead-subh"
-                  fill="#000"
-                  textAnchor="middle"
-                >
-                  <textPath startOffset="50%" xlinkHref="#subheading-arc">
-                    <a
-                      href="https://restaurantguru.com"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Restaurant Guru
-                    </a>
-                  </textPath>
-                </text>
-              </svg>
-            </div>
+                <textPath startOffset="50%" xlinkHref="#heading-arc">
+                  Recommended
+                </textPath>
+              </text>
+            </svg>
+          </div>
+          <div className="r-ribbon_year">2025</div>
+          <a
+            href="https://restaurantguru.com/Boba-Joy-Trondheim"
+            className="r-ribbon_title f14"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Boba Joy
           </a>
+          <div className="r-ribbon_ahead r-ribbon_ahead-bottom">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              width="120px"
+              height="120px"
+              viewBox="0 0 120 120"
+            >
+              <defs>
+                <path id="subheading-arc" d="M 12 60 a 48 48 0 0 0 96 0"></path>
+              </defs>
+              <text
+                className="r-ribbon_ahead-subh"
+                fill="#000"
+                textAnchor="middle"
+              >
+                <textPath startOffset="50%" xlinkHref="#subheading-arc">
+                  <a
+                    href="https://restaurantguru.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Restaurant Guru
+                  </a>
+                </textPath>
+              </text>
+            </svg>
+          </div>
+          {/* </a> */}
         </div>
       </div>
       <div className="footerCreditsWrapper">
