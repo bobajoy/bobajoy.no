@@ -132,7 +132,7 @@ const Home: NextPage = () => {
         </div>
         <div className={`${styles.section} ${styles.selectionWrapper}`}>
           <h1 className={styles.title}>
-            📸 Tag oss + Følg oss og bli med i trekningen
+            📸 Følg oss for å ikke gå glipp av gode dealer
           </h1>
           <Posts />
         </div>
